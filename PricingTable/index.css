@@ -1,0 +1,510 @@
+html, body{
+
+}
+.section{
+    margin: 0 auto;
+    width: 1192px;
+    height: 736px;
+    border: 1px solid green;
+    padding: 20px;
+    background: #264b96;
+}
+
+.firstRow {
+    background-color:  #dddddd;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+    height: 156px;
+}
+
+.choose_your {
+    font-family: Arimo, serif;
+    display: block;
+    color:  #484848;
+    font-size: 18px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.menu{
+   /* display: flex;
+    flex-direction: column;
+    justify-content: start;*/
+}
+
+.pricing_plan {
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 30px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.planType{
+
+    width: 100%;
+    height: 70px;
+}
+
+.type1{
+    background-color:  #89c331;
+}
+.type2{
+    background-color: #f04a56;
+}
+.type3{
+    background-color:  #20807c;
+}
+
+.planPrice{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    display: grid;
+    grid-template-areas:
+    'left top'
+    'left bottom';
+    grid-gap: 5px;
+    background-color:  #fafafa;
+    width: 100%;
+    height: 86px;
+}
+
+.planTypeText{
+    display: block;
+    padding: 20px 0;
+    font-family: Arimo, serif;
+    color:  #ffffff;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.planPrice-span1{
+    grid-area: left;
+    display: block;
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 60px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 80px;/* Approximation due to font substitution */
+    text-align: right;
+}
+
+.planPrice-span2{
+    grid-area: top;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 30px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.planPrice-span3{
+
+    grid-area: bottom;
+    display: block;
+    padding-bottom: 50px;
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 18px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 1px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.fa-archive{
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 20px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    padding-right: 10px;
+}
+
+.iconStorage{
+    display: inline-block;
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+
+.storage{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+}
+
+.gb{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+}
+
+
+.fa-cloud-upload-alt{
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    padding-right: 10px;
+}
+
+.bandwidth{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+    background-color:  #e3e3e3;
+    width: 310px;
+    height: 69px;
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+.bd1{
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: right;
+
+    background-color:  #e3e3e3;
+    width: 320px;
+    height: 69px;
+}
+
+.bd2 {
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: left;
+
+    background-color:  #e3e3e3;
+    width: 277px;
+    height: 69px;
+}
+
+.bd3{
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.27);
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+
+    background-color:  #e3e3e3;
+    width: 277px;
+    height: 69px;
+}
+
+
+.email{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.fa-envelope{
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 20px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    padding-right: 15px;
+}
+
+.email_th{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+    background-color:  #f2f2f2;
+    width: 277px;
+    height: 69px;
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.fa-life-ring{
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    padding-right: 15px;
+}
+
+.support{
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+
+    background-color:  #e3e3e3;
+    width: 310px;
+    height: 69px;
+}
+
+.support_th{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    background-color:  #e3e3e3;
+    width: 310px;
+    height: 69px;
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.products{
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.fa-cube{
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    padding-right: 15px;
+}
+
+.products_th{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    background-color:  #f2f2f2;
+    width: 277px;
+    height: 69px;
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.fa-users{
+    font-family: FontAwesome, serif;
+    color:  #848484;
+    font-size: 24px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+    padding-right: 15px;
+
+}
+
+.users{
+    background-color:  #e3e3e3;
+    width: 310px;
+    height: 69px;
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.users_th{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+
+    font-family: Arimo, serif;
+    color:  #484848;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+
+    background-color:  #e3e3e3;
+    width: 277px;
+    height: 69px;
+}
+
+.btns_th1{
+
+
+    background-color:  #dddddd;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+    width: 310px;
+    height:109px;
+
+
+}
+
+.btns_th{
+    margin-top: 0px;
+    background-color:  #eeeeee;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.27);
+}
+
+.btn1{
+    border-radius: 5px;
+    background-color:  #484848;
+    width: 192px;
+    height: 49px;
+    outline: none;
+
+    transition:all 0.3s ease;
+
+    font-family: Arimo, serif;
+    color:  #ffffff;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+/*.btn1:hover {
+    background-color: #264b96;
+}*/
+
+.btn1:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.btn2{
+
+
+    transition:all 0.3s ease;
+
+    border-radius: 5px;
+    background-color:  #89c331;
+    width: 192px;
+    height: 49px;
+    outline: none;
+
+    font-family: Arimo, serif;
+    color:  #ffffff;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+/*
+.btn2:hover {
+    background-color: #264b96;
+}
+*/
+
+.btn2:hover
+{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+.btn3{
+    border-radius: 5px;
+    background-color:  #f04a56;
+    width: 192px;
+    height: 49px;
+    transition:all 0.3s ease;
+    opacity:1;
+    outline: none;
+    font-family: Arimo, serif;
+    color:  #ffffff;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.btn3:hover {
+    opacity:0.5;
+}
+
+.btn4{
+    border-radius: 5px;
+    background-color:  #20807c;
+    width: 192px;
+    height: 49px;
+    transition:all 0.3s ease;
+
+    outline: none;
+    font-family: Arimo, serif;
+    color:  #ffffff;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 28px;/* Approximation due to font substitution */
+    text-align: center;
+}
+
+.btn4:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}

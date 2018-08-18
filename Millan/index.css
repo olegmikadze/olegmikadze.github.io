@@ -1,0 +1,192 @@
+html, body {
+    font-family: Verdana, serif;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1366px;
+    height: 890px;
+    background: url("images/bg.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header{
+    width: 1020px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+   /* padding-top: 30px;*/
+}
+
+.leftHeaderImg{
+    width: 46px;
+    height: 44px;
+    margin-right: 7px;
+}
+
+.leftHeaderDiv{
+    display: inline-block;
+}
+
+.leftHeaderSpan1{
+    color: white;
+    display: block;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.leftHeaderSpan2{
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.rightHeaderSpan1{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+}
+
+.rightHeaderSpan2{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+}
+
+.grid-container{
+    padding: 50px;
+    width: 1064px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-column-gap: 1px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.grid-item{
+    cursor: pointer;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    box-sizing:border-box;
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+
+}
+
+.grid-item:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 3px #fff;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+
+.grid-item:hover:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    opacity: 0.5;
+}
+.grid-item:hover {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+    color: #fff;
+}
+.grid-item:hover i {
+    color: #fff;
+}
+
+.gridItemSpan{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:1px;
+    text-align: center;
+
+}
+
+
+.grid-item:hover .hover {
+    visibility:  visible;
+}
+
+.grid-item:hover .gridItemSpan{
+    color: #f26522;
+}
+
+.hover{
+    position: absolute;
+    left: 6%;
+    bottom: 30%;
+    transition: transform 1s;
+    visibility: hidden;
+    background-color:  #f26522;
+    width: 312px;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0);
+
+}
+.hover:hover{
+     transform: translateY(-20px);
+}
+
+
+.hoverLeft{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.hoverLeftFrom{
+    color:  #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.hoverLeftPrice{
+    color:  #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+
+
+.hoverRight {
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.details{
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-decoration: none;
+}
