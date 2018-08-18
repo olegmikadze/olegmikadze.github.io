@@ -523,7 +523,7 @@ html, body{
     margin: 0 auto;
     padding: 10px;
     display: flex;
-
+    overflow: hidden;
 
     position: relative;
 

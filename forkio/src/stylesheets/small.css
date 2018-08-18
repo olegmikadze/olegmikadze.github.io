@@ -427,7 +427,7 @@ html,body{
     position: relative ;
     width: 100%;
     height: 100%;
-
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -787,6 +787,7 @@ html,body{
 
 
 .section5-title{
+    width: 90%;
     text-align: center;
     font-family: Montserrat, serif;
     color:  #ffffff;
@@ -872,7 +873,7 @@ html,body{
 
 
 .section6-title{
-    width:  63%;
+    width:  100%;
     font-family: Montserrat, serif;
     color:  #ffffff;
     font-size: 42px;/* Approximation due to font substitution */
