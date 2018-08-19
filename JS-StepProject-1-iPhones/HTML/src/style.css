@@ -1,0 +1,823 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+row {
+   justify-content: center;
+   align-items: center;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+header {
+   position: static;
+   background-color: white;
+   width: 100%;
+}
+
+.main-nav {
+   padding: 15px 0px;
+   overflow: hidden;
+   background-color: white;
+   border-bottom: 1px solid #efefef;
+}
+
+.left {
+   margin-left: auto;
+}
+
+ #mainRightMenu {
+    padding: 0px auto;
+ }
+
+.logo {
+   display: inline-block;
+   padding-top: 14px;
+}
+
+.navbar-nav .nav-item .btn-get-app {
+   color: white;
+   border-radius: 20px;
+   width: 110px;
+}
+
+.button-right-menu {
+   margin-left: auto;
+}
+
+.fa-apple {
+   padding-right: 10px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.first-section {
+   background-size: cover;
+   background: url("images/banner_background.jpg") no-repeat fixed center;
+   overflow: hidden;
+   padding-top: 120px;
+}
+
+.happens-header {
+   display: inline-block;
+   margin: 10px auto;
+}
+
+.txtcntr {
+   margin-bottom: 50px;
+   justify-content: center;
+   align-items: center;
+}
+
+.paragraph-1 {
+   margin: 30px auto;
+   width: 700px;
+   color: grey;
+   opacity: 0.75;
+   font-size: 20px;
+ }
+
+.btn-watch-video {
+   border: 1px solid lightgrey;
+   border-radius: 20px;
+   margin: 0px auto;
+   display: block;
+   width: 150px;
+}
+
+.fa-caret-right {
+   margin-right: 10px;
+}
+
+.phone-image {
+   background: url("images/header_iphone.png");
+   margin: 0px auto;
+   background-position: center-top;
+   height: 460px;
+   width: 369px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.second-section {
+   background: white;
+   padding-top: 100px;
+   padding-bottom: 20px;
+   overflow: hidden;
+}
+
+.third-row {
+   margin-bottom: 100px;
+}
+
+.right-block {
+   padding-left: 30px;
+}
+
+.left-block {
+   padding-right: 30px;
+}
+
+.lock {
+   background: url("images/lock.png") no-repeat;
+   height: 50px;
+   weight: 50px;
+}
+
+.alarm {
+   background: url("images/alarm.png") no-repeat;
+   height: 50px;
+   weight: 50px;
+}
+
+.title-third {
+   padding: 30px 0px;
+}
+
+.text-third {
+   color: grey;
+   font-size: 20px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.third-section {
+   background-color: #efefef;
+   overflow: hidden;
+}
+
+.iphone-feature {
+   position: relative;
+   top: 20px;
+   right: 270px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .iphone-feature {
+      position: relative;
+      top: 20px;
+      right: 350px;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   .iphone-feature {
+      position: relative;
+      top: 20px;
+      right: 110px;
+   }
+}
+
+@media only screen and (max-width: 900px) {
+   .iphone-feature {
+      position: relative;
+      height: 90%;
+      width: 90%;
+      left: 30px;
+   }
+}
+
+.text-fourth {
+   color: grey;
+   font-size: 20px;
+}
+
+.block-3 {
+   position: relative;
+   margin: auto 0px;
+   padding-bottom: 30px;
+}
+
+.block-4 {
+   margin: auto 0px;
+}
+
+.btn-try {
+   margin-top: 50px;
+   border-radius: 15px;
+   width: 160px;
+   margin-right: 20px;
+}
+
+.fa-arrow-right {
+   margin-left: 20px;
+}
+
+.btn-learn {
+   margin-top: 50px;
+   border-radius: 15px;
+   border: 1px solid lightgrey;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.fourth-section {
+   background: white;
+   padding-top: 120px;
+   padding-bottom: 120px;
+   overflow: hidden;
+}
+
+h2 {
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+.text-fifth {
+   color: grey;
+   font-size: 20px;
+}
+
+h6 {
+   padding-top: 70px;
+   padding-bottom: 25px;
+   font-weight: bold;
+}
+
+.map {
+   width: 850px;
+   padding-top: 50px;
+   position: relative;
+   bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .map {
+      width: 95%;
+      position: relative;
+      top: 80px;
+      left: 50px;
+      bottom: 20px;
+   }
+}
+
+.background-map {
+   padding: 0px 10px;
+   position: relative;
+
+}
+
+.container-fluid {
+   margin: 20px 0px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.fifth-section {
+   padding: 100px 0px 0px;
+   background-color: #efefef;
+   position: relative;
+   overflow: hidden;
+   height: 1600px;
+}
+
+.beatiful-interface {
+   padding-bottom: 30px;
+}
+
+.blue-line {
+   background-color: dodgerblue;
+   width: 40px;
+   height: 2px;
+   margin: 0px auto;
+}
+
+.landing-screen {
+   color: silver;
+   padding-bottom: 50px;
+   padding-top: 40px;
+}
+
+.interface-img {
+   position: relative;
+   list-style: none;
+}
+
+.interface-img li {
+   position: absolute;
+   width: 320px;
+   top: 92px;
+}
+
+.interface-img li img {
+   max-width: 100%;
+}
+
+.interface-img li.interface-main-img {
+   width: 395px;
+   left: 50%;
+   margin-left: -197px;
+   top: 0px;
+}
+
+.interface-img-2 {
+   left: 50%;
+   margin-left: -530px;
+}
+
+.interface-img-1 {
+   left: 50%;
+   margin-left: -875px;
+}
+
+.interface-img-3 {
+   right: 50%;
+   margin-right: -525px;
+}
+
+.interface-img-4 {
+   right: 50%;
+   margin-right: -870px;
+}
+
+.whitelogo {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.get-it-to {
+   padding-bottom: 30px;
+}
+
+.newprovidence {
+   margin-top: 850px;
+   height: 500px;
+   margin-bottom: 60px;
+}
+
+.input-email-fifth-section {
+   max-width: 400px;
+   max-height: 42px;
+   display: inline-block;
+}
+
+.email-fifth-section {
+   width: 400px;
+   height: 43px;
+   background-color: #efefef;
+   font-size: 12px;
+   border-radius: 20px;
+   border: 1px solid silver;
+   font-style: normal;
+   color: grey;
+   outline-style: none;
+   padding-left: 20px;
+}
+
+.send-invite-fifth-section {
+   width: 150px;
+   height: 36.5px;
+   border-radius: 20px;
+   background-color: #66cc32;
+   border: none;
+   color: white;
+   position: relative;
+   left: 122px;
+   top: -40px;
+}
+
+@media only screen and (max-width: 430px) {
+    .input-email-fifth-section {
+       max-width: 250px;
+       max-height: 42px;
+       display: inline-block;
+     }
+    .email-fifth-section {
+       width: 250px;
+       height: 43px;
+       background-color: #efefef;
+       font-size: 10px;
+       border-radius: 20px;
+       border: 1px solid silver;
+       font-style: normal;
+       color: grey;
+       outline-style: none;
+       padding-left: 10px;
+    }
+    .send-invite-fifth-section {
+       width: 115px;
+       height: 36.5px;
+       border-radius: 20px;
+       background-color: #66cc32;
+       border: none;
+       color: white;
+       position: relative;
+       left: 65px;
+       top: -40px;
+    }
+}
+
+.fa-arrow-right {
+   margin-left: 10px;
+}
+
+.or-download-from {
+   color: silver;
+   padding-top: 30px;
+}
+
+.store-download {
+   padding-top: 30px;
+}
+
+.app-store-download {
+   border-radius: 20px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.six-section {
+   background-color: white;
+   overflow: hidden;
+   border: 1px solid black;
+   height: 500px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.seventh-section {
+   overflow: hidden;
+   background-color: #efefef;
+   padding: 100px 0px;
+}
+
+.block-one {
+   padding-right: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .block-one {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.you-are {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 13px;
+}
+
+
+.thus-much {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   color: grey;
+}
+
+.lets-talk {
+   text-decoration: underline;
+}
+
+ .radio-group label {
+   overflow: hidden;
+}
+
+.radio-group input {
+   height: 1px;
+   width: 1px;
+   position: absolute;
+   top: -20px;
+}
+
+.text-plan-radio {
+   border-radius: 30px;
+   border: 2px solid grey;
+   padding: 10px 25px;
+   font-size: 18px;
+   background-color: white;
+   color: black;
+   font-weight: bold;
+   z-index: 1;
+}
+
+.text-plan-radio:hover {
+   border-radius: 30px;
+   border: 2px solid black;
+   padding: 10px 25px;
+   font-size: 18px;
+   background-color: white;
+   color: black;
+   font-weight: bold;
+   z-index: 1;
+}
+
+.radio-group .not-active  {
+   color: silver;
+   background-color: #efefef;
+   font-weight: normal;
+   border: 1px solid silver;
+   z-index: 0;
+}
+
+.radio-group .not-active:hover {
+   color: silver;
+   background-color: #efefef;
+   font-weight: normal;
+   border: 1px solid silver;
+   z-index: 0;
+}
+
+.bigger-team {
+   color: grey;
+}
+
+/* --------------- */
+
+.rooooow {
+   margin: auto 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .rooooow {
+       width: 600px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+@media only screen and (max-width: 680px) {
+   .rooooow {
+       width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+.starter-pro-block {
+   margin-top: 20px;
+   margin-right: 1px;
+   border-radius: 10px;
+   width: 49%;
+   background-color: #dcdcdc;
+   padding: 30px 0px 0px;
+   color: #808080;
+   position: relative;
+   height: 480px;
+   width: 291px;
+}
+
+.starter-pro-header {
+   font-weight: normal;
+   padding-bottom: 20px;
+}
+
+.costs {
+   border: 1px solid grey;
+   padding: 10px 15px;
+   border-radius: 17px;
+   font-weight: bold;
+   max-width: 80px;
+   text-align: center;
+}
+
+.slogan-header {
+   padding: 60px 0px 30px;
+   max-width: 180px;
+   margin: 0px auto;
+}
+
+.check-elements {
+   padding: 0px 0px;
+}
+
+.fa-lg {
+   color: #6FC754;
+   padding: 0px 0px;
+}
+
+.check-paragraphs {
+   margin-bottom: 150px;
+}
+
+.button-below {
+   border-radius: 20px;
+   border: 1px solid #1E90FF;
+   width: 200px;
+   color: #1E90FF;
+   position: absolute;
+   bottom: 25px;
+   right: 43px;
+}
+
+/* ------------------------ */
+
+
+.starter-pro-block:hover {
+   margin-top: 10px;
+   border-radius: 10px;
+   width: 49%;
+   background-color: white;
+   padding: 30px 0px 0px;
+   color: black;
+   height: 500px;
+   width: 291px;
+   position: relative;
+}
+
+.starter-pro-header:hover {
+   font-weight: normal;
+   padding-bottom: 20px;
+}
+
+.costs:hover {
+   border: 1px solid grey;
+   padding: 10px 15px;
+   border-radius: 17px;
+   font-weight: bold;
+   max-width: 80px;
+   text-align: center;
+}
+
+.slogan-header:hover {
+   padding: 60px 0px 30px;
+   max-width: 180px;
+   margin: 0px auto;
+}
+
+.check-elements:hover {
+   padding: 0px 0px;
+}
+
+.button-below:hover {
+   position: absolute;
+   bottom: 25px;
+   right: 43px;
+   border-radius: 20px;
+   width: 200px;
+   background-color: #1E90FF;
+   color: white;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.eight-section {
+   padding: 30px 0px;
+   overflow: hidden;
+}
+
+.mmm {
+  padding-bottom: 10px;
+}
+
+.input-email-eight-section {
+   display: inline-block;
+   max-width: 400px;
+   max-height: 42px;
+}
+
+.email-eight-section {
+   width: 400px;
+   height: 43px;
+   background-color: #efefef;
+   font-size: 12px;
+   border-radius: 20px;
+   border: 1px solid darkgrey;
+   color: grey;
+   font-style: normal;
+   outline-style: none;
+   padding-left: 20px;
+}
+
+.subscribe-eight-section {
+   width: 150px;
+   height: 36.5px;
+   border-radius: 20px;
+   background-color: #66cc32;
+   border: none;
+   color: white;
+   position: relative;
+   left: 122px;
+   top: -40px;
+}
+
+@media only screen and (max-width: 433px) {
+    .input-email-eight-section {
+       display: inline-block;
+       max-width: 250px;
+       max-height: 42px;
+     }
+    .email-eight-section {
+       width: 250px;
+       height: 43px;
+       background-color: #efefef;
+       font-size: 12px;
+       border-radius: 20px;
+       border: 1px solid darkgrey;
+       color: grey;
+       font-style: normal;
+       outline-style: none;
+       padding-left: 20px;
+    }
+    .subscribe-eight-section {
+       width: 115px;
+       height: 36.5px;
+       border-radius: 20px;
+       background-color: #66cc32;
+       border: none;
+       color: white;
+       position: relative;
+       left: 65px;
+       top: -40px;
+    }
+}
+
+.we-promise {
+   padding-top: 0px;
+   padding-bottom: 100px;
+   color: darkgrey;
+}
+
+.woooor {
+  border-bottom: 4px solid #efefef;
+  border-top: 4px solid #efefef;
+  padding: 100px 0px;
+}
+
+.text-left {
+   padding-left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+   .text-left {
+       width: 600px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 50px;
+   }
+}
+
+.it-was-some-time {
+   color: darkgrey;
+   width: 300px;
+   padding: 30px 0px;
+}
+
+.app-store-download {
+    border-radius: 20px;
+ }
+
+.logos {
+   padding-top: 40px;
+}
+
+.fa-fa-fa {
+   font-size: 20px;
+   color: darkgrey;
+   padding: 0px 10px;
+}
+
+.fa-fa-fa:hover {
+   color: black;
+   padding: 0px 10px;
+}
+
+.text-left {
+   padding-top: 17px;
+}
+
+.column-header {
+   padding: 25px 0px;
+}
+
+.list-item {
+   padding-bottom: 15px;
+}
+
+.item-link {
+   color: darkgrey;
+}
+
+.item-link:hover {
+   color: black;
+   text-decoration: none;
+}
+
+.made-with-love {
+   font-size: 10px;
+   font-weight: bold;
+   padding-top: 25px;
+   display: inline-block;
+}
+
+.author-link {
+   align: right;
+}
+
+.craftwork-logo {
+   padding: 10px;
+   padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
