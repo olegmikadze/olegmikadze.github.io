@@ -1120,8 +1120,8 @@ html, body{
     text-align: center;
 }
 .agency-desc{
-    margin-top: 60px;
-    margin-bottom: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: Montserrat, serif;
     color:  #ffffff;
     font-size: 16.01px;/* Approximation due to font substitution */
@@ -1129,8 +1129,28 @@ html, body{
     text-align: center;
 }
 
+.btnPurchaseDiv2{
+    margin-top: 120px;
+    text-align: center;
+}
 
+.purchaseButton2{
+    background-color:  rgba(255, 255, 255, 0.15);
+    width: 180px;
+    border-radius: 34px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Montserrat, serif;
+    color:  #ffffff;
+    font-size: 14.99px;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: center;
+}
 
+.purchaseButton2:hover{
+    background-color: white;
+    color: #8d81ac;
+}
 
 
 .section6-footer{
