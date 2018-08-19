@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/forkio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/forkio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forkio/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forkio/src/stylesheets/large.css" beforeDir="false" afterPath="$PROJECT_DIR$/forkio/src/stylesheets/large.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forkio/src/stylesheets/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/forkio/src/stylesheets/middle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="large.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="large.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forkio/src/stylesheets/large.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -52,7 +50,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +77,7 @@
         <option value="$PROJECT_DIR$/forkio/index.html" />
         <option value="$PROJECT_DIR$/forkio/src/stylesheets/middle.css" />
         <option value="$PROJECT_DIR$/forkio/src/stylesheets/large.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -101,24 +116,6 @@
               <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="forkio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="forkio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="forkio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -127,6 +124,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -198,12 +196,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534665692047</updated>
-      <workItem from="1534665693967" duration="763000" />
+      <workItem from="1534665693967" duration="1083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="763000" />
+    <option name="totallyTimeSpent" value="1083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -273,6 +271,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="1131" column="17" lean-forward="true" selection-start-line="1131" selection-start-column="17" selection-end-line="1131" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
