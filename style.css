@@ -1,0 +1,108 @@
+html, body{
+    margin: 0;
+    font-family: Roboto, serif;
+
+}
+
+.section-about{
+    width: 100%;
+    height: 660px;
+    background: url("bg1.png") fixed no-repeat center;
+    background-size: cover;
+
+    position: relative;
+
+}
+
+
+.portHeader{
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    top: 0;
+}
+
+.portHeader__span{
+    color: white;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.portHeader__links{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    padding-right: 40px;
+}
+
+.portHeader__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portHeader__logo--link{
+    color: white;
+    text-decoration: none;
+}
+
+.portHeader__list--link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.about-div{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+    top: 120px;
+}
+
+.about-photo{
+    border-radius: 500px;
+    border: 2px solid white;
+}
+
+.about-span{
+    color: white;
+    font-size: 40px;
+}
+.about-span-desc{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.sec2{
+    background-color:black;
+    width: 100%;
+}
+
+.portfolio-title-div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.portfolio-title-span{
+    font-size: 70px;
+    color: white;
+}
