@@ -44,13 +44,13 @@ html, body{
 }
 
 
-@media screen and (max-width: 990px){
+@media only screen and (max-width: 990px){
     .portHeaderList{
         width: 60%;
     }
 }
 
-@media screen and (max-width: 620px){
+@media only screen and (max-width: 620px){
 
 
     .portHeaderSpan{
@@ -151,7 +151,7 @@ html, body{
     border-radius: 10px;
 }
 
-@media screen and (max-width: 720px){
+@media only screen and (max-width: 720px){
     .educationContent a{
         width: 40%;
 
