@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/large.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/large.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/middle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,25 +20,25 @@
           <file leaf-file-name="large.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/stylesheets/large.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+                <state relative-caret-position="544">
+                  <caret line="179" column="2" selection-start-line="179" selection-start-column="2" selection-end-line="179" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="middle.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="middle.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/stylesheets/middle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
-                  <caret line="51" selection-start-line="51" selection-end-line="53" selection-end-column="1" />
+                <state relative-caret-position="337">
+                  <caret line="110" column="70" selection-start-line="110" selection-end-line="110" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="small.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="small.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
+                <state relative-caret-position="-544">
                   <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
                 </state>
               </provider>
@@ -63,8 +65,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+                <state relative-caret-position="592">
+                  <caret line="52" column="75" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="78" />
                 </state>
               </provider>
             </entry>
@@ -97,12 +99,12 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/stylesheets/middle.css" />
         <option value="$PROJECT_DIR$/stylesheets/small.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/large.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/stylesheets/middle.css" />
-        <option value="$PROJECT_DIR$/src/stylesheets/large.css" />
         <option value="$PROJECT_DIR$/src/stylesheets/small.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/stylesheets/large.css" />
+        <option value="$PROJECT_DIR$/src/stylesheets/middle.css" />
       </list>
     </option>
   </component>
@@ -145,6 +147,12 @@
               <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -247,12 +255,12 @@
       <updated>1534665692047</updated>
       <workItem from="1534665693967" duration="3574000" />
       <workItem from="1535202996685" duration="5023000" />
-      <workItem from="1535403323544" duration="12415000" />
+      <workItem from="1535403323544" duration="15366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21012000" />
+    <option name="totallyTimeSpent" value="23963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -443,31 +451,31 @@
     <entry file="file://$PROJECT_DIR$/.gitignore.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/middle.css">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="51" selection-start-line="51" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/large.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="-544">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        <state relative-caret-position="592">
+          <caret line="52" column="75" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/large.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="544">
+          <caret line="179" column="2" selection-start-line="179" selection-start-column="2" selection-end-line="179" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/middle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="110" column="70" selection-start-line="110" selection-end-line="110" selection-end-column="72" />
         </state>
       </provider>
     </entry>

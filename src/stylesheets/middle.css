@@ -108,4 +108,66 @@ html, body{
 }
 
 
+/*////////////////////////////////////////////////////////////////////*/
 
+.sectionEducation{
+    width: 100%;
+    height: 600px;
+
+    background: url("../img/123.jpg") fixed no-repeat center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.educationContent{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.educationContentSpan{
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+
+.educationContent div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.educationContentSpan2 {
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+
+
+}
+
+.educationContentSpan3{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 10px;
+}

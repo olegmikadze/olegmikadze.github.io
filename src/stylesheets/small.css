@@ -59,7 +59,7 @@ html, body{
 }
 
 
-
+/*//////////////////////////////////////////////////////////////////////*/
 
 .sectionAbout{
     width: 100%;
@@ -116,18 +116,66 @@ html, body{
 
 
 
-@media only screen and (max-width: 620px){
+/*//////////////////////////////////////////////////////////////////////*/
 
 
-    .portHeaderSpan{
-        color: white;
-        font-size: 20px;
-        padding-left: 20px;
-    }
+.sectionEducation{
+    width: 100%;
+    height: 600px;
 
-    .portHeaderList {
-        width: 80%;
-        padding-left: 20px;
-    }
+    background: url("../img/123.jpg") fixed no-repeat center;
+    background-size: cover;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.educationContent{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.educationContentSpan{
+    border: 2px solid white;
+
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.educationContent div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.educationContentSpan2 {
+    border: 2px solid white;
+
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.educationContentSpan3{
+    border: 2px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 10px;
 }
