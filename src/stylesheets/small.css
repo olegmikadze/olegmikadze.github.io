@@ -154,10 +154,16 @@ html, body{
 }
 
 .educationContent div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+    height: 150px;
+
+}
+
+.educationContent div a{
+    text-decoration: none;
 }
 .educationContentSpan2 {
     border: 2px solid white;
