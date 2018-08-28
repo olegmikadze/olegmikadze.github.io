@@ -185,3 +185,91 @@ html, body{
     color: white;
     border-radius: 10px;
 }
+
+/*
+/////////////////////////////////////////////////////////////*/
+
+
+
+.sectionCourses{
+    width: 100%;
+    height: 900px;
+    min-width: 320px;
+
+    background: url("../img/22.jpg") fixed center no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coursesContent{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.coursesSpan{
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.coursesRow{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.coursesRowItem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coursesRowItem span{
+
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.iteaLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iteaLogo{
+    width: 70%;
+
+}
+
+.adkLogo{
+    width: 85%;
+}
+
+.danLogo{
+    width: 90%;
+}
+

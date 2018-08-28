@@ -187,6 +187,102 @@ html, body{
 */
 
 
+.sectionCourses{
+    width: 100%;
+    height: 600px;
+
+    background: url("../img/22.jpg") fixed center no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coursesContent{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coursesSpan{
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.coursesRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coursesRowItem{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coursesRowItem span{
+
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.iteaLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iteaLogo{
+    width: 90%;
+
+}
+
+.adkLogo{
+    width: 90%;
+}
+
+.danLogo{
+    width: 100%;
+}
+
+
+
+
+/*
+!*!/////////////////////////////////////////////////////////////////////////////////////////////////////!*!
+*/
+
+
+
+
+
+
+
+
+
+
 /*
 .sec2{
     background-color:black;
