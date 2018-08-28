@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/large.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/large.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/middle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/small.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/small.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +36,8 @@
           <file leaf-file-name="small.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+                <state relative-caret-position="-34">
+                  <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -242,12 +239,12 @@
       <updated>1534665692047</updated>
       <workItem from="1534665693967" duration="3574000" />
       <workItem from="1535202996685" duration="5023000" />
-      <workItem from="1535403323544" duration="18222000" />
+      <workItem from="1535403323544" duration="18882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26819000" />
+    <option name="totallyTimeSpent" value="27479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -461,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        <state relative-caret-position="-34">
+          <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
         </state>
       </provider>
     </entry>
