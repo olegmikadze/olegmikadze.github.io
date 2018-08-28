@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/middle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/small.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/123.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/IMG_5120.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/IMG_5120.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sandwich.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sandwich.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/road-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/large.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,10 +61,10 @@
       <split-second>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/index.html">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
-                  <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+                  <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -185,11 +173,11 @@
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\src" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\stylesheets" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\StepProject2" />
-      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\iPhone" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,12 +247,12 @@
       <updated>1534665692047</updated>
       <workItem from="1534665693967" duration="3574000" />
       <workItem from="1535202996685" duration="5023000" />
-      <workItem from="1535403323544" duration="12138000" />
+      <workItem from="1535403323544" duration="12415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20735000" />
+    <option name="totallyTimeSpent" value="21012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -469,10 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
         </state>
       </provider>
     </entry>
