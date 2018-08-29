@@ -336,7 +336,7 @@ html, body{
 .galleryItem{
     width: 200px;
     height: 200px;
-    overflow-y: auto;
+    overflow-y: hidden;
 
 }
 
