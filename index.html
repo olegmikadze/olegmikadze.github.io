@@ -5,11 +5,10 @@
     <title>Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
-    <script src="src/js.js" rel="script"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="screen and (min-width: 993px) " href="src/stylesheets/large.css">
-    <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 992px) " href="src/stylesheets/middle.css">
-    <link rel="stylesheet" media=" (max-width: 480px) " href="src/stylesheets/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 993px) " href="stylesheets/large.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 992px) " href="stylesheets/middle.css">
+    <link rel="stylesheet" media=" (max-width: 480px) " href="stylesheets/small.css">
 
 </head>
 <body>
@@ -19,21 +18,21 @@
        <span class="portHeaderSpan">Portfolio</span>
 
        <ul class="portHeaderList">
-           <li><a class="portHeaderListLink" href="#about">About</a></li>
+           <li><a class="portHeaderListLink" href="#particles-js">About</a></li>
            <li><a class="portHeaderListLink" href="#education">Education</a></li>
            <li><a class="portHeaderListLink" href="#courses">Courses</a></li>
            <li><a class="portHeaderListLink" href="#projects">Projects</a></li>
            <li><a class="portHeaderListLink" href="#social">Social</a></li>
        </ul>
 
-       <img src="src/img/sandwich.png" class="portHeaderSandwich">
+       <img src="img/sandwich.png" class="portHeaderSandwich">
    </div>
 </div>
 
-<section class="sectionAbout" id="about">
-    <div class="aboutContent">
+<section class="sectionAbout" id="particles-js">
+    <div class="aboutContent" id="page-wrapper">
         <div class="aboutDiv">
-            <img src="src/img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" class="about-photo">
+            <img src="img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" class="about-photo">
             <span class="aboutSpan">Oleh Mikadze</span>
             <span class="aboutSpanDesc">Junior Java FullStack Developer</span>
             <span class="aboutSpanDesc">Birthday: 10.09.99</span>
@@ -44,71 +43,75 @@
 </section>
 
 <section class="sectionEducation" id="education">
-    <div class="educationContent">
-        <span class="educationContentSpan">Education</span>
-        <div>
-            <a href="https://nau.edu.ua/"><span class="educationContentSpan2">National Aviation University</span></a>
-            <span class="educationContentSpan3">Bachelor Degree In Software Engineering (2016-2020)</span>
+    <div class="wrapper">
+        <div class="educationContent">
+            <span class="educationContentSpan">Education</span>
+            <div>
+                <a href="https://nau.edu.ua/"><span class="educationContentSpan2">National Aviation University</span></a>
+                <span class="educationContentSpan3">Bachelor Degree In Software Engineering (2016-2020)</span>
+            </div>
+            <a href="https://nau.edu.ua/" class="educationNauPhoto"><img src="img/123.jpg"></a>
         </div>
-        <!--<a href="https://nau.edu.ua/"><img src="./src/img/123.jpg"></a>-->
     </div>
+
 </section>
-
-
 
 
 <section class="sectionCourses" id="courses">
     <div class="coursesContent">
-
     <span class="coursesSpan">Courses</span>
-
         <div class="coursesRow">
-
             <div class="coursesRowItem">
                 <a href="https://dan-it.com.ua/uk/program/full-stack/">
-                    <img src="src/img/завантаження.png" class="danLogo">
+                    <img src="img/завантаження.png" class="danLogo">
                 </a>
                 <span>DAN.IT</span>
             </div>
 
             <div class="coursesRowItem">
-                <a href="https://itea.ua/uk/courses_itea/java_programming/" class="iteaLink">
-                    <img src="src/img/logo_ITEA.png" class="iteaLogo">
+                <a href="https://itea.ua/uk/courses_itea/java_programming/" class="iteaLink"><img src="img/logo_ITEA.png" class="iteaLogo">
                 </a>
                 <span>ITEA</span>
             </div>
 
             <div class="coursesRowItem">
                 <a href="http://adk-german-courses.com/en/sommer-courses">
-                    <img src="src/img/завантаження%20(1).png" class="adkLogo">
+                    <img src="img/завантаження%20(1).png" class="adkLogo">
                 </a>
                 <span>ADK Schule</span>
             </div>
-
         </div>
     </div>
 </section>
 
-<!--
-
-
 
 <section class="sectionProjects" id="projects">
+    <div class="wrapper">
+        <div class="projectsContent">
 
-    <div>
-        <h1>List of projects: </h1>
-        <ul>
-            <li><a href="https://olegmikadze.github.io/forkio/">Forkio Landing Page</a></li>
-            <li><a href="https://olegmikadze.github.io/Journey/">Journey Login Page</a></li>
-            <li><a href="https://olegmikadze.github.io/Millan/">Millan Gallery</a></li>
-            <li><a href="https://olegmikadze.github.io/Parallax/">Parallax Page</a></li>
-            <li><a href="https://olegmikadze.github.io/PricingTable/">Pricing Table Page</a></li>
-            <li><a href="https://olegmikadze.github.io/Ramda/">Ramda</a></li>
-            <li><a href="https://olegmikadze.github.io/iPhone/">iPhones Step Project</a></li>
-            <li><a href="https://olegmikadze.github.io/StepProject2/">Step Project 2</a></li>
-        </ul>
+            <h1>List of projects</h1>
+
+
+            <ul class="listProject">
+                <li><a href="https://olegmikadze.github.io/forkio/">Forkio Landing Page</a></li>
+                <li><a href="https://olegmikadze.github.io/Journey/">Journey Login Page</a></li>
+                <li><a href="https://olegmikadze.github.io/Millan/">Millan Gallery</a></li>
+                <li><a href="https://olegmikadze.github.io/Parallax/">Parallax Page</a></li>
+                <li><a href="https://olegmikadze.github.io/PricingTable/">Pricing Table Page</a></li>
+                <li><a href="https://olegmikadze.github.io/Ramda/">Ramda</a></li>
+                <li><a href="https://olegmikadze.github.io/iPhone/">iPhones Step Project</a></li>
+                <li><a href="https://olegmikadze.github.io/StepProject2/">Step Project 2</a></li>
+            </ul>
+
+        </div>
     </div>
-</section>-->
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" defer></script>
+<script src="js.js" type="text/javascript" rel="script" defer></script>
+
 
 </body>
 </html>

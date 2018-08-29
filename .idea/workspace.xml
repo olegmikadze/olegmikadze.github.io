@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/small.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/small.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/particles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/olegmikadze.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/olegmikadze.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/123.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IMG_5120.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_5120.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/images.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo_ITEA.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo_ITEA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sandwich.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sandwich.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/завантаження (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/img/завантаження (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/завантаження.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/завантаження.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/large.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/large.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/middle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/small.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/small.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,32 +30,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44106463">
+    <splitter split-orientation="horizontal" split-proportion="0.5721352">
       <split-first>
-        <leaf>
-          <file leaf-file-name="large.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/stylesheets/large.css">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="large.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stylesheets/large.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="238" selection-start-line="238" selection-end-line="246" selection-end-column="1" />
+                <state relative-caret-position="476">
+                  <caret line="323" column="10" selection-start-line="323" selection-start-column="10" selection-end-line="323" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="middle.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/stylesheets/middle.css">
+            <entry file="file://$PROJECT_DIR$/stylesheets/middle.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="371">
-                  <caret line="237" column="16" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
+                <state relative-caret-position="3060">
+                  <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="small.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
+          <file leaf-file-name="small.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stylesheets/small.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-34">
-                  <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
+                <state relative-caret-position="3230">
+                  <caret line="190" column="1" selection-start-line="181" selection-end-line="190" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -45,12 +63,30 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="439">
-                  <caret line="82" column="72" selection-start-line="82" selection-start-column="72" selection-end-line="82" selection-end-column="72" />
+                <state relative-caret-position="17">
+                  <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="particles.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/particles.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -78,17 +114,20 @@
         <option value="$PROJECT_DIR$/forkio/src/stylesheets/middle.css" />
         <option value="$PROJECT_DIR$/forkio/src/stylesheets/large.css" />
         <option value="$PROJECT_DIR$/iPhone/.gitignore" />
-        <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/stylesheets/middle.css" />
-        <option value="$PROJECT_DIR$/stylesheets/small.css" />
-        <option value="$PROJECT_DIR$/stylesheets/large.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/stylesheets/large.css" />
-        <option value="$PROJECT_DIR$/src/stylesheets/middle.css" />
         <option value="$PROJECT_DIR$/src/stylesheets/small.css" />
+        <option value="$PROJECT_DIR$/src/stylesheets/middle.css" />
+        <option value="$PROJECT_DIR$/src/package.json" />
+        <option value="$PROJECT_DIR$/src/stylesheets/large.css" />
+        <option value="$PROJECT_DIR$/src/js.js" />
+        <option value="$PROJECT_DIR$/particles.json" />
+        <option value="$PROJECT_DIR$/js.js" />
+        <option value="$PROJECT_DIR$/stylesheets/small.css" />
+        <option value="$PROJECT_DIR$/stylesheets/middle.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/large.css" />
       </list>
     </option>
   </component>
@@ -117,9 +156,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,24 +168,18 @@
             <path>
               <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="olegmikadze.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="olegmikadze.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,16 +192,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
-      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\src" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\stylesheets" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\StepProject2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
+      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,16 +271,17 @@
       <updated>1534665692047</updated>
       <workItem from="1534665693967" duration="3574000" />
       <workItem from="1535202996685" duration="5023000" />
-      <workItem from="1535403323544" duration="18882000" />
+      <workItem from="1535403323544" duration="20989000" />
+      <workItem from="1535476375378" duration="4960000" />
+      <workItem from="1535529733706" duration="512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27479000" />
+    <option name="totallyTimeSpent" value="35058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -263,9 +296,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11744966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -277,6 +309,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,12 +319,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StepProject2/images/team_32.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StepProject2/images/team_33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/StepProject2/images/team_34.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -332,16 +359,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/road-7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css" />
+    <entry file="file://$PROJECT_DIR$/road-7.jpg" />
     <entry file="file://$PROJECT_DIR$/.gitignore.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -435,31 +454,45 @@
     <entry file="file://$PROJECT_DIR$/iPhone/src/images/interface/img-3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/particles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/small.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="190" column="1" selection-start-line="181" selection-end-line="190" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/middle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="82" column="72" selection-start-line="82" selection-start-column="72" selection-end-line="82" selection-end-column="72" />
+        <state relative-caret-position="17">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/large.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/large.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="238" selection-start-line="238" selection-end-line="246" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/middle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="237" column="16" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/small.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
+        <state relative-caret-position="476">
+          <caret line="323" column="10" selection-start-line="323" selection-start-column="10" selection-end-line="323" selection-end-column="10" />
         </state>
       </provider>
     </entry>
