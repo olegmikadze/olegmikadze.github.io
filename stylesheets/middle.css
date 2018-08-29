@@ -204,7 +204,7 @@ html, body{
     width: 100%;
     height: 600px;
 
-   background-color: #303030;
+    background-color: #303030;
 
     display: flex;
     flex-direction: row;
@@ -230,11 +230,8 @@ html, body{
 
 .coursesSpan{
     font-size: 40px;
-    color: black;
+    color: white;
     font-weight: 800;
-    background-color: white;
-    padding: 10px 30px;
-    border-radius: 10px;
 }
 
 .coursesRow{
@@ -256,11 +253,9 @@ html, body{
 .coursesRowItem span{
 
     font-size: 20px;
-    color: black;
+    color: white;
     font-weight: 800;
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
+
 }
 
 .iteaLink{
@@ -271,14 +266,13 @@ html, body{
 }
 
 .iteaLogo{
-    width: 90%;
-
+    width: 200px;
 }
 
 .adkLogo{
-    width: 90%;
+    width: 100px;
 }
 
 .danLogo{
-    width: 100%;
+    width: 100px;
 }

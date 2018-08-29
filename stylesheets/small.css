@@ -207,7 +207,7 @@ html, body{
 
 .sectionCourses{
     width: 100%;
-    height: 900px;
+    height: 700px;
     min-width: 320px;
 
     background-color: #303030;
@@ -233,17 +233,14 @@ html, body{
 
 
 .coursesSpan{
-    font-size: 20px;
-    color: black;
+    font-size: 40px;
+    color: white;
     font-weight: 800;
-    background-color: white;
-    padding: 10px 30px;
-    border-radius: 10px;
 }
 
 .coursesRow{
     width: 100%;
-    height: 700px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -253,7 +250,6 @@ html, body{
 
 .coursesRowItem{
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -261,13 +257,9 @@ html, body{
 }
 
 .coursesRowItem span{
-
     font-size: 20px;
-    color: black;
+    color: white;
     font-weight: 800;
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
 }
 .iteaLink{
     display: flex;
@@ -277,15 +269,13 @@ html, body{
 }
 
 .iteaLogo{
-    width: 70%;
-
+    width: 200px;
 }
 
 .adkLogo{
-    width: 85%;
+    width: 100px;
 }
 
 .danLogo{
-    width: 90%;
+    width: 100px;
 }
-
