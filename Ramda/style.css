@@ -108,7 +108,7 @@ body{
     height: 527px;
 }
 
-.wrapper{
+.projectsContent{
     display: flex;
     overflow: hidden;
 }

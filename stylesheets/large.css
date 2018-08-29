@@ -278,7 +278,7 @@ html, body{
 
 .sectionProjects{
     width: 100%;
-    height: 700px;
+    height: 780px;
 
 
     background: url("../img/construction-2682641_1920.jpg") fixed no-repeat center;
@@ -297,32 +297,38 @@ html, body{
 }
 
 .projectsContent{
-    max-width: 1200px;
+    width: 1200px;
     height: 100%;
+
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 .projectsContent h1 {
     color: white;
     font-size: 40px;
     font-weight: 800;
-}
 
-.listProject{
-    list-style: none;
-
-}
-
-.listProject li a{
-    color: white;
-    text-decoration: none;
-    margin: 20px;
+    position: absolute;
+    top: 20px;
+    width: 300px;
 }
 
 
+
+.gallery{
+    margin-top: 150px;
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
 
 
