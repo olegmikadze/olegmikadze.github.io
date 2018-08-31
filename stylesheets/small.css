@@ -279,3 +279,82 @@ html, body{
 .danLogo{
     width: 100px;
 }
+
+
+
+/*
+!*!/////////////////////////////////////////////////////////////////////////////////////////////////////!*!
+*/
+
+.sectionProjects{
+    width: 100%;
+    height: 1000px;
+
+
+    background: url("../img/construction-2682641_1920.jpg") fixed no-repeat center;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsContent{
+    width: 95%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectsContent h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+
+    width: 300px;
+}
+
+
+
+.gallery{
+
+    margin-top: 120px;
+    width: 350px;
+    height: 1300px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+
+    padding: 10px;
+
+}
+
+.galleryItem{
+    width: 100px;
+    height: 100px;
+    overflow-y: hidden;
+
+}
+
+.fl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.galleryItem a img{
+    width: 100%;
+}
