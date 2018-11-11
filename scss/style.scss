@@ -91,6 +91,7 @@ html, body{
             &__aboutSpanDesc{
                 color: white;
                 font-size: 20px;
+                text-align: center;
             }
         }
     }
@@ -364,5 +365,17 @@ html, body{
 @media screen and (max-width:420px){
     .sectionCourses__coursesContent__coursesRow__coursesRowItem__iteaLink__iteaLogo{
         width: 90%;
+    }
+
+    .sectionEducation__educationContent__educationContentSpan{
+        font-size: 40px;
+    }
+
+    .sectionEducation__educationContent__div__a__educationContentSpan2{
+        font-size: 20px;
+    }
+
+    .sectionEducation__educationContent__div__educationContentSpan3{
+        font-size: 25px;
     }
 }
