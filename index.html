@@ -3,80 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="screen and (min-width: 993px) " href="stylesheets/large.css">
-    <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 992px) " href="stylesheets/middle.css">
-    <link rel="stylesheet" media=" (max-width: 480px) " href="stylesheets/small.css">
-
+    <link rel="stylesheet" href="../css/style.css">
+   
 </head>
 <body>
 
 <div class="portHeader">
-   <div>
-       <span class="portHeaderSpan">Portfolio</span>
-
-       <ul class="portHeaderList">
-           <li><a class="portHeaderListLink" href="#particles-js">About</a></li>
-           <li><a class="portHeaderListLink" href="#education">Education</a></li>
-           <li><a class="portHeaderListLink" href="#courses">Courses</a></li>
-           <li><a class="portHeaderListLink" href="#projects">Projects</a></li>
+   <div class="portHeader__div">
+       <span class="portHeader__div__span">Portfolio</span>
+       <ul class="portHeader__div__list">
+           <li><a class="portHeader__div__list__listLink" href="#particles-js">About</a></li>
+           <li><a class="portHeader__div__list__listLink" href="#education">Education</a></li>
+           <li><a class="portHeader__div__list__listLink" href="#courses">Courses</a></li>
+           <li><a class="portHeader__div__list__listLink" href="#projects">Projects</a></li>
        </ul>
-
-       <img src="img/sandwich.png" class="portHeaderSandwich">
+       <img src="img/sandwich.png" class="portHeader__div__sandwich">
    </div>
 </div>
 
 <section class="sectionAbout" id="particles-js">
-    <div class="aboutContent" id="page-wrapper">
-        <div class="aboutDiv">
-            <img src="img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" class="about-photo">
-            <span class="aboutSpan">Oleh Mikadze</span>
-            <span class="aboutSpanDesc">Junior Java FullStack Developer</span>
-            <span class="aboutSpanDesc">Birthday: 10.09.99</span>
-            <span class="aboutSpanDesc">+38 (099) 012 53 85</span>
-            <span class="aboutSpanDesc">Kiyv, Ukraine</span>
+    <div class="sectionAbout__aboutContent" id="page-wrapper">
+        <div class="sectionAbout__aboutContent__aboutDiv">
+            <img src="img/ce11a587-d8df-45e6-afbb-c781c0502d52.jpg" class="sectionAbout__aboutContent__aboutDiv__aboutPhoto">
+            <span class="sectionAbout__aboutContent__aboutDiv__aboutSpan">Oleh Mikadze</span>
+            <span class="sectionAbout__aboutContent__aboutDiv__aboutSpanDesc">Junior Java FullStack Developer</span>
+            <span class="sectionAbout__aboutContent__aboutDiv__aboutSpanDesc">Birthday: 10.09.99</span>
+            <span class="sectionAbout__aboutContent__aboutDiv__aboutSpanDesc">+38 (099) 012 53 85</span>
+            <span class="sectionAbout__aboutContent__aboutDiv__aboutSpanDesc">Kiyv, Ukraine</span>
         </div>
     </div>
 </section>
 
 <section class="sectionEducation" id="education">
-    <div class="projectsContent">
-        <div class="educationContent">
-            <span class="educationContentSpan">Education</span>
-            <div>
-                <a href="https://nau.edu.ua/"><span class="educationContentSpan2">National Aviation University</span></a>
-                <span class="educationContentSpan3">Bachelor Degree In Software Engineering (2016-2020)</span>
-            </div>
-            <a href="https://nau.edu.ua/" class="educationNauPhoto"><img src="img/123.jpg"></a>
+    <div class="sectionEducation__educationContent">
+        <span class="sectionEducation__educationContent__educationContentSpan">Education</span>
+        <div class="sectionEducation__educationContent__div">
+            <a href="https://nau.edu.ua/" class="sectionEducation__educationContent__div__a"><span class="sectionEducation__educationContent__div__a__educationContentSpan2">National Aviation University</span></a>
+            <span class="sectionEducation__educationContent__div__educationContentSpan3">Bachelor Degree In Software Engineering (2016-2020)</span>
         </div>
+        <a href="https://nau.edu.ua/" class="sectionEducation__educationContent__educationNauPhoto"><img src="img/123.jpg"></a>
     </div>
-
 </section>
 
-
 <section class="sectionCourses" id="courses">
-    <div class="coursesContent">
-    <span class="coursesSpan">Courses</span>
-        <div class="coursesRow">
-            <div class="coursesRowItem">
-                <a href="https://dan-it.com.ua/uk/program/full-stack/">
-                    <img src="img/завантаження.png" class="danLogo">
+    <div class="sectionCourses__coursesContent">
+        <span class="sectionCourses__coursesContent__coursesSpan">Courses</span>
+        <div class="sectionCourses__coursesContent__coursesRow">
+            <div class="sectionCourses__coursesContent__coursesRow__coursesRowItem">
+                <a href="https://dan-it.com.ua/uk/program/full-stack/" class="sectionCourses__coursesContent__coursesRow__coursesRowItem__a">
+                    <img src="img/завантаження.png" class="sectionCourses__coursesContent__coursesRow__coursesRowItem__a__danLogo">
                 </a>
                 <span>DAN.IT</span>
             </div>
-
-            <div class="coursesRowItem">
-                <a href="https://itea.ua/uk/courses_itea/java_programming/" class="iteaLink">
-                    <img src="img/logo_ITEA.png" class="iteaLogo">
+            <div class="sectionCourses__coursesContent__coursesRow__coursesRowItem">
+                <a href="https://itea.ua/uk/courses_itea/java_programming/" class="sectionCourses__coursesContent__coursesRow__coursesRowItem__iteaLink">
+                    <img src="img/logo_ITEA.png" class="sectionCourses__coursesContent__coursesRow__coursesRowItem__iteaLink__iteaLogo">
                 </a>
                 <span>ITEA</span>
             </div>
-
-            <div class="coursesRowItem">
-                <a href="http://adk-german-courses.com/en/sommer-courses">
-                    <img src="img/завантаження%20(1).png" class="adkLogo">
+            <div class="sectionCourses__coursesContent__coursesRow__coursesRowItem">
+                <a href="http://adk-german-courses.com/en/sommer-courses" class="sectionCourses__coursesContent__coursesRow__coursesRowItem__a">
+                    <img src="img/завантаження%20(1).png" class="sectionCourses__coursesContent__coursesRow__coursesRowItem__a__adkLogo">
                 </a>
                 <span>ADK Schule</span>
             </div>
@@ -84,41 +73,28 @@
     </div>
 </section>
 
-
 <section class="sectionProjects" id="projects">
-    <div class="wrapper">
-        <div class="projectsContent">
-
+    <div class="sectionProjects__wrapper">
+        <div class="sectionProjects__wrapper__projectsContent">
             <h1>List of projects</h1>
-
-
-            <div class="gallery">
-                <div class="galleryItem">   <a href="https://olegmikadze.github.io/forkio/">      <img src="img/projects/Forkio_1200.png"/></a></div>
-                <div class="galleryItem fl"><a href="https://olegmikadze.github.io/Millan/">      <img src="img/projects/Milan_Holidays_Hover-2.png"/></a></div>
-                <div class="galleryItem fl"><a href="https://olegmikadze.github.io/Ramda/">       <img src="img/projects/RamdaJS-2.png"/></a></div>
-
-                <div class="galleryItem fl"><a href="https://olegmikadze.github.io/PricingTable2/"><img src="img/projects/Pricing_Table_2.png"/></a></div>
-                <div class="galleryItem fl"><a href="https://olegmikadze.github.io/PricingTable/"><img src="img/projects/Pricing_Table.png"/></a></div>
-                <div class="galleryItem">  <a href="https://olegmikadze.github.io/iPhone/">       <img src="img/projects/landong-page_preview.jpg"  /></a></div>
-
-                <div class="galleryItem">  <a href="https://olegmikadze.github.io/" >     <img src="img/projects/The_Ham.png"  /></a></div>
-                <div class="galleryItem fl"><a href="https://olegmikadze.github.io/Journey/">     <img src="img/projects/Journey_Default.png" /></a></div>
-                <div class="galleryItem">  <a href="https://olegmikadze.github.io/StepProject2/"> <img src="img/projects/Parallax.png"  /></a></div>
+            <div class="sectionProjects__wrapper__projectsContent__gallery">
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem"><a href="https://olegmikadze.github.io/forkio/"><img src="img/projects/Forkio_1200.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem "><a href="https://olegmikadze.github.io/Millan/"><img src="img/projects/Milan_Holidays_Hover-2.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem "><a href="https://olegmikadze.github.io/Ramda/"><img src="img/projects/RamdaJS-2.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem "><a href="https://olegmikadze.github.io/PricingTable2/"><img src="img/projects/Pricing_Table_2.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem "><a href="https://olegmikadze.github.io/PricingTable/"><img src="img/projects/Pricing_Table.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem"><a href="https://olegmikadze.github.io/iPhone/"><img src="img/projects/landong-page_preview.jpg"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem"><a href="https://olegmikadze.github.io/"><img src="img/projects/The_Ham.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem "><a href="https://olegmikadze.github.io/Journey/"><img src="img/projects/Journey_Default.png"/></a></div>
+                <div class="sectionProjects__wrapper__projectsContent__gallery__galleryItem"><a href="https://olegmikadze.github.io/StepProject2/"> <img src="img/projects/Parallax.png"/></a></div>
             </div>
-
-
         </div>
     </div>
-
 </section>
-
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" defer></script>
 <script src="js.js" type="text/javascript" rel="script" defer></script>
-
 
 </body>
 </html>
