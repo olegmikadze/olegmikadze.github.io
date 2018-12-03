@@ -4,8 +4,6 @@ html, body{
     font-family: Roboto, serif;
 }
 
-
-
 .portHeader{
     width: 100%;
     padding: 20px 0;
@@ -213,7 +211,7 @@ html, body{
                     font-size: 30px;
                     color: white;
                     font-weight: 800;
-                
+
                 }
 
                 &__iteaLink{
@@ -253,7 +251,7 @@ html, body{
             justify-content: space-around;
             align-items: center;
             position: relative;
-           
+
             h1 {
                 color: white;
                 font-size: 40px;
@@ -278,8 +276,8 @@ html, body{
                     width: 200px;
                     height: 200px;
                     overflow-y: auto;
-                    overflow-x: hidden; 
-                   
+                    overflow-x: hidden;
+
                     a img{
                         width: 100%;
                     }
@@ -308,7 +306,7 @@ html, body{
         flex-direction: column;
     }
 
-   
+
     .sectionProjects{
         height: 1500px;
     }
@@ -316,14 +314,14 @@ html, body{
         margin-top: 120px;
         width: 450px;
         height: 1300px;
-    
+
         display: flex;
         flex-flow: row wrap;
         align-content: space-around;
         justify-content: space-around;
-    
+
         padding: 10px;
-    
+
     }
 }
 
