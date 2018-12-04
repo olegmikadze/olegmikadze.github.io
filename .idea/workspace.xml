@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/answers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="60c3b6c1-23bc-4829-86cc-0cac395b88a7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -144,7 +138,7 @@
       <path value="$PROJECT_DIR$/forkio/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -179,23 +173,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543857733753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543860457743" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
-      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\answers" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\src" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\stylesheets" />
       <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
-      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\StepProject2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io\img" />
+      <recent name="D:\Workspace\MyProgramming\GitPages\olegmikadze.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,15 +245,15 @@
       <workItem from="1535698293554" duration="120000" />
       <workItem from="1535710009530" duration="2150000" />
       <workItem from="1535785600680" duration="608000" />
-      <workItem from="1543856762051" duration="965000" />
+      <workItem from="1543856762051" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46269000" />
+    <option name="totallyTimeSpent" value="46960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -462,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="357">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
