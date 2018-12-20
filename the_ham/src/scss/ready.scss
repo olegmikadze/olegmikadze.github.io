@@ -1,0 +1,47 @@
+@import "mixin", "vars";
+
+
+.ready{
+  background-size: cover;
+  background-image: url("/dist/img/bg2.jpg");
+  height: 474px;
+  @include width100;
+
+  &__readyTitle{
+    padding-top: 150px;
+
+    &--readySpan1{
+      display: block;
+      text-align: center;
+      color: $myGreen;
+      font-size: 40px;/* Approximation due to font substitution */
+      font-weight: 700;
+      line-height: 40px;/* Approximation due to font substitution */
+
+    }
+    &--readySpan2{
+      display: block;
+      color:  #d8d8d8;
+      font-size: 16px;/* Approximation due to font substitution */
+      font-weight: 400;
+      line-height: 40px;/* Approximation due to font substitution */
+      text-align: center;/* Approximation due to font substitution */
+    }
+  }
+
+
+  &__buttons2{
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  &__purchase2Div{
+    @include btnDiv;
+
+    &--purchase2{
+      outline: none;
+      background-color:  $myGreen;
+      @include btn;
+    }
+  }
+}

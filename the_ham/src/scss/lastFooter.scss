@@ -1,0 +1,18 @@
+@import "mixin", "vars";
+
+
+.lastFooter{
+  display: flex;
+  align-items: center;
+  background-color:  #22353f;
+  width: 1920px;
+  height: 107px;
+  @include width100;
+
+  &__div{
+    margin: 0 auto;
+    color:  #aeaeae;
+    font-size: 14px;/* Approximation due to font substitution */
+
+  }
+}

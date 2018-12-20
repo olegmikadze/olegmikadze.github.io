@@ -1,0 +1,119 @@
+@import "mixin", "vars";
+
+.header{
+  background-size:cover;
+  background-image: url('/dist/img/bg1.jpg');
+  height: 892px;
+  @include width100;
+
+  &__headerRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    @include width100;
+    background-color:  rgba(73, 71, 63, 0.6);
+  }
+
+  &__logoDiv{
+    text-align: left;
+    display: block;
+  }
+
+  &__img{
+    margin-left: 205px;
+  }
+
+  &__linksDiv{
+    display: block;
+  }
+
+  &__aHome{
+    font-weight: 900;
+    font-size: 13px;
+    color:  #b8b8b8;
+    margin-left: 20px;
+    text-decoration: none;
+
+  }
+
+
+  &__WPThemeParent{
+    @include width100;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__WPThemeChild{
+    margin-top: 100px;
+
+    &--sp1{
+      display: block;
+      color:  $myWhite;
+      font-weight: 700;
+      text-align: center;
+      margin: 40px 0;
+      font-size: 35px;/* Approximation due to font substitution */
+      line-height: 9.53px;/* Approximation due to font substitution */
+
+      &--sp1\.2{
+        color:  #18cfab;
+        font-size: 35px;/* Approximation due to font substitution */
+        font-weight: 700;
+        line-height: 9.53px;/* Approximation due to font substitution */
+        text-align: center;
+      }
+    }
+
+    &--sp2{
+      display: block;
+      color:  $myWhite;
+      font-weight: 700;
+      text-align: center;
+      margin: 20px 0;
+      font-size: 79px;/* Approximation due to font substitution */
+      line-height: 74px;/* Approximation due to font substitution */
+      transform: scaleX(1.0005);/* width and height properties ommitted due to transform */
+    }
+
+    &--sp3{
+      display: block;
+      text-align: center;
+      color:  $myWhite;
+      font-size: 34px;/* Approximation due to font substitution */
+      font-weight: 300;
+      line-height: 74px;/* Approximation due to font substitution */
+      transform: scaleX(1.0005);/* width and height properties ommitted due to transform */
+    }
+  }
+
+  &__btnRow{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__buttons{
+    margin-top: 40px;
+  }
+
+  &__exploreDiv{
+    @include btnDiv;
+
+    &--explore{
+      outline: none;
+      background-color:  $myGreen;
+      @include btn;
+    }
+  }
+
+  &__purchaseDiv{
+    @include btnDiv;
+
+    &--purchase{
+      outline: none;
+      background-color:  #00cbf6;
+      @include btn;
+    }
+  }
+}

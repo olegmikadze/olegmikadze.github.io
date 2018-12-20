@@ -1,0 +1,118 @@
+@import "mixin", "vars";
+
+.breakingNews{
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto 100px;
+
+  &__title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 82px;
+    margin-bottom: 50px;
+
+    &--sp{
+      color:  #4e4e4e;
+      font-size: 36px;/* Approximation due to font substitution */
+      font-weight: 400;
+      line-height: 40px;/* Approximation due to font substitution */
+      text-align: center;
+    }
+  }
+
+  &__sticks{
+    width: 100px;
+    height: 10px;
+    margin: 10px auto;
+  }
+
+  &__stickL{
+    margin: 6px;
+    width: 100%;
+    height: 3px;
+    background-color: #18cfab;
+  }
+  &__stickR{
+    width: 100%;
+    height: 3px;
+    background-color: #18cfab;
+  }
+
+  &__firstBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  &__block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description{
+    width: 261px;
+    height: 72px;
+    margin-top: -7px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+
+    &--spa1{
+      display: block;
+      color:  #18cfab;
+      font-size: 17.99px;/* Approximation due to font substitution */
+      font-weight: 700;
+      line-height: 40px;/* Approximation due to font substitution */
+      text-align: center;
+      transform: scaleY(1.0006);
+    }
+    &--spa2{
+      display: block;
+      color:  #777777;
+      font-size: 13.99px;/* Approximation due to font substitution */
+      font-weight: 300;
+      line-height: 20px;/* Approximation due to font substitution */
+      text-align: center;
+      transform: scaleY(1.0006);
+    }
+  }
+
+  &__secondBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  &__block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description{
+    width: 281px;
+    height: 72px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+
+    &--spa1{
+      display: block;
+      color:  #18cfab;
+      font-size: 17.99px;/* Approximation due to font substitution */
+      font-weight: 700;
+      line-height: 40px;/* Approximation due to font substitution */
+      transform: scaleY(1.0006);
+    }
+    &--spa2{
+      display: block;
+      color:  #777777;
+      font-size: 13.99px;/* Approximation due to font substitution */
+      font-weight: 300;
+      line-height: 20px;/* Approximation due to font substitution */
+      text-align: center;
+      transform: scaleY(1.0006);
+    }
+  }
+}

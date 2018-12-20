@@ -1,0 +1,53 @@
+@import "mixin", "vars";
+
+.rectanglesRow{
+  width: 1550px;
+  margin: 0 auto;
+
+  &__miniRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__miniRectGreen{
+    background-color: $myGreen;
+    @include miniRect;
+  }
+  &__miniRectWhite{
+    background-color: $myWhite;
+    @include miniRect;
+  }
+
+  &__maxiRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &__maxiRectDark{
+    img{
+      margin-top: 90px;
+    }
+    span{
+      color:  $myGreen;
+      @include maxiRectSpan;
+    }
+    background-color: $myDarkGreen;
+    @include maxiRect;
+  }
+
+  &__maxiRectLight{
+    div{
+      height: 188px;
+    }
+    img{
+      margin-top: 90px;
+    }
+    span{
+      color: $myWhite;
+      @include maxiRectSpan;
+    }
+    background-color:  $myGreen;
+    @include maxiRect;
+  }
+}

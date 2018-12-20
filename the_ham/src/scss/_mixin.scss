@@ -1,0 +1,138 @@
+@import "vars";
+
+
+@mixin width100{
+  width: 100%;
+}
+
+
+@mixin flex-box($justify_c, $align_i, $direct) {
+  display: flex;
+  justify-content: $justify_c;
+  align-items: $align_i;
+  flex-direction: $direct;
+}
+
+
+@mixin container {
+  max-width: 1160px;
+  text-align: center;
+  margin: auto;
+}
+
+
+@mixin margin-padding-zero {
+  margin: 0;
+  padding: 0;
+}
+
+
+@mixin two-turquoise-lines {
+  @include flex-box(inherit, inherit, column);
+  position: relative;
+  margin: 30px auto 60px;
+  width: 110px;
+  height: 6px;
+
+  div {
+    position: absolute;
+    width: 90px;
+    height: 1.5px;
+    background-color: $turquoise;
+  }
+
+  div:first-child {
+    top: 0;
+    left: 0;
+    animation: upper-line-slide infinite 1.5s linear;
+  }
+
+  div:last-child {
+    bottom: 0;
+    right: 0;
+    animation: lower-line-slide infinite 1.5s linear;
+  }
+}
+
+
+@mixin two-turquoise-lines-hover {
+  div:first-child {
+    animation: upper-line-slide infinite 0.5s linear;
+  }
+
+  div:last-child {
+    animation: lower-line-slide infinite 0.5s linear;
+  }
+}
+
+@mixin title {
+  @include margin-padding-zero;
+  font-size: 36px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+@mixin btnDiv {
+  display: inline-block;
+  border-radius: 10px;
+  background-color:  #ffffff;
+  width: 166px;
+  height: 61px;
+  margin: 0 10px;
+}
+
+@mixin btn {
+  border-radius: 6px;
+  width: 166px;
+  height: 61px;
+
+  color:  #ffffff;
+  font-size: 13px;/* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 31px;/* Approximation due to font substitution */
+  text-align: center;
+  transform: scaleX(1.001);/* width and height properties ommitted due to transform */
+}
+
+@mixin miniRect{
+  display: inline-block;
+  width: 480px;
+  height: 7px;
+}
+
+@mixin maxiRect {
+  text-align: center;
+  display: inline-block;
+  width: 480px;
+  height: 374px;
+}
+
+@mixin maxiRectSpan {
+  display: block;
+  font-size: 20px;/* Approximation due to font substitution */
+  font-weight: 700;
+  margin-top: 49px;
+  text-align: center;
+}
+
+
+@mixin stickStyle{
+  background-color:  #18cfab;
+  width: 76px;
+  height: 3px;
+}
+
+@mixin dark-overlay {
+  &:after {
+    content: "";
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: -1; // Take note of this negative z-index and compare to each article's positive z-index. This helps your content to show up over the overlay.
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+}
+

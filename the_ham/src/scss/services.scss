@@ -1,0 +1,122 @@
+@import "mixin", "vars";
+
+
+.services{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 82px;
+  margin-bottom: 25px;
+
+  &__title{
+    span{
+      color:  #4e4e4e;
+      font-size: 36px;/* Approximation due to font substitution */
+      font-weight: 400;
+      line-height: 40px;/* Approximation due to font substitution */
+      text-align: center;
+    }
+  }
+
+  &__sticks{
+    width: 100px;
+    height: 10px;
+    margin: 10px auto;
+  }
+
+  &__stickL{
+    margin: 7px;
+    width: 100%;
+    height: 3px;
+    background-color: #18cfab;
+  }
+
+  &__stickR{
+    width: 100%;
+    height: 3px;
+    background-color: #18cfab;
+  }
+
+  /* Style the tab */
+  &__tab {
+    flex-direction: row;
+    margin-top: 60px;
+    width: 1154px;
+    height: 73px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+  &__tablinks{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 192px;
+    height: 73px;
+    color:  grey;
+    font-size: 15.98px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 40px;/* Approximation due to font substitution */
+    text-align: center;
+    transform: scaleY(1.0009);/* width and height properties ommitted due to transform */
+
+  }
+
+  /* Change background color of buttons on hover */
+  &__tablinks:hover{
+    background-color: $myGreen;
+  }
+
+  #WebDesign {
+    display: flex;
+  }
+  /* Create an active/current tablink class */
+  &__tablinks.active{
+
+    background-color: $myGreen;
+    color: $myWhite;
+  }
+
+
+  /* Style the tab content */
+  &__tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 1154px;
+    height: 200px;
+    margin: 40px auto 100px;
+  }
+
+  &__child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+  }
+  &__p{
+    display: inline-block;
+    color:  #777777;
+    font-size: 13.64px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 25px;/* Approximation due to font substitution */
+    text-align: justify;
+    transform: scaleY(1.0009);
+  }
+
+  &__imgDiv{
+
+    &--img{
+      display: block;
+    }
+  }
+}

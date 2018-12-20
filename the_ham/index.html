@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ham</title>
+
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="/dist/libs/jquery-3.3.1.min.js"></script>
+    <script src="/dist/libs/masonry.pkgd.min.js"></script>
+
+    <link href="/dist/css/concatenated.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="header" id="header">
+        <div class="header__headerRow">
+            <div class="header__logoDiv">
+                <img class="header__img" src="dist/img/logo1.png">
+            </div>
+            <div class="header__links">
+                <a href="#header" class="header__aHome">HOME</a>
+                <a href="#rectanglesRow" class="header__aHome">ABOUT</a>
+                <a href="#ready" class="header__aHome">INSTALL</a>
+                <a href="#services" class="header__aHome">SERVICE</a>
+                <a href="#breakingNews" class="header__aHome">NEWS</a>
+                <a href="#feedback" class="header__aHome">TESTMONIAL</a>
+                <a href="#lastFooter" class="header__aHome">BLOG</a>
+                <a href="#" class="header__aHome">TEAM</a>
+                <a href="#" class="header__aHome">CONTACT</a>
+                <a href="#" class="header__aHome w3-xlarge"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+        <div class="header__WPThemeParent">
+            <div class="header__WPThemeChild">
+                <span class="header__WPThemeChild--sp1">THE HAM IS<span class="header__WPThemeChild--sp1--sp1.2" style="color:#18cfab">WORDPRESS THEME</span></span>
+                <span class="header__WPThemeChild--sp2">WE ARE CREATIVE</span>
+                <span class="header__WPThemeChild--sp3">Just Buy And Enjoy These Awesome Features</span>
+            </div>
+        </div>
+        <div class="header__btnRow">
+            <div class="header__buttons">
+                <div class="header__exploreDiv">
+                    <button class="header__exploreDiv--explore">Explore Now</button>
+                </div>
+                <div class="header__purchaseDiv">
+                    <button class="header__purchaseDiv--purchase">Purchase Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rectanglesRow" id="rectanglesRow">
+        <div class="rectanglesRow__miniRow">
+            <div class="rectanglesRow__miniRectGreen"></div>
+            <div class="rectanglesRow__miniRectWhite"></div>
+            <div class="rectanglesRow__miniRectGreen"></div>
+            <div class="rectanglesRow__miniRectWhite"></div>
+        </div>
+        <div class="rectanglesRow__maxiRow">
+            <div class="rectanglesRow__maxiRectDark">
+                <div>
+                    <img src="dist/img/icon-1.png">
+                </div>
+                <span>DIFFERENT THEME OPTION</span>
+            </div>
+            <div class="rectanglesRow__maxiRectLight">
+                <div>
+                    <img src="dist/img/icon-2.png">
+                </div>
+                <span>FULLY CUSTOMIZABLE</span>
+            </div>
+            <div class="rectanglesRow__maxiRectDark">
+                <div>
+                    <img src="dist/img/icon-3.png">
+                </div>
+                <span>UNLIMITED SUPPORTED</span>
+            </div>
+            <div class="rectanglesRow__maxiRectLight">
+                <div>
+                    <img src="dist/img/icon-4.png">
+                </div>
+                <span>RESPONSIVE ALL DEVICE</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="services__title">
+            <span>Our Services</span>
+        </div>
+        <div class="services__sticks">
+            <div class="services__stickR"></div>
+            <div class="services__stickL"></div>
+        </div>
+        <div class="services__tab">
+            <button  class="services__tablinks active" onclick="openBlock(event, 'WebDesign')">Web Design</button>
+            <button class="services__tablinks" onclick="openBlock(event, 'GraphicDesign')">Graphic Design</button>
+            <button class="services__tablinks" onclick="openBlock(event, 'OnlineSupport')">Online Support</button>
+            <button class="services__tablinks" onclick="openBlock(event, 'AppDesign')">App Design</button>
+            <button class="services__tablinks" onclick="openBlock(event, 'OnlineMarketing')">Online Marketing</button>
+            <button class="services__tablinks" onclick="openBlock(event, 'SEO')">SEO Service</button>
+        </div>
+        <div id="WebDesign" class="services__tabcontent">
+            <div class="services__child">
+                <div class="services__imgDiv">
+                    <img class="services__imgDiv--img" src="/dist/img/client-1.jpg" >
+                </div>
+                <p class="services__p" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurd est laborum.
+                </p>
+            </div>
+        </div>
+        <div id="GraphicDesign" class="services__tabcontent">
+            <div class="services__child">
+                <div class="services__imgDiv">
+                    <img class="services__imgDiv--img" src="/dist/img/client-2.jpg" >
+                </div>
+                <p class="services__p" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurd est laborum.
+                </p>
+            </div>
+        </div>
+        <div id="OnlineSupport" class="services__tabcontent">
+            <div class="services__child">
+                <div class="services__imgDiv">
+                    <img class="services__imgDiv--img" src="/dist/img/client-3.jpg" >
+                </div>
+                <p class="services__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurd est laborum.</p>
+            </div>
+        </div>
+        <div id="AppDesign" class="services__tabcontent">
+            <div class="services__child">
+                <div class="services__imgDiv">
+                    <img class="services__imgDiv--img" src="/dist/img/client-3.jpg" >
+                </div>
+                <p class="services__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurd est laborum.</p>
+            </div>
+        </div>
+        <div id="OnlineMarketing" class="services__tabcontent">
+            <div class="services__child">
+                <div class="services__imgDiv">
+                    <img class="services__imgDiv--img" src="/dist/img/client-4.jpg" >
+                </div>
+                <p class="services__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurd est laborum.</p>
+            </div>
+        </div>
+        <div id="SEO" class="services__tabcontent">
+            <div class="services__child">
+                <div class="services__imgDiv">
+                    <img class="services__imgDiv--img" src="/dist/img/client-1.jpg" >
+                </div>
+                <p class="services__p" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurd est laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ready" id="ready">
+        <div class="ready__readyTitle">
+            <span class="ready__readyTitle--readySpan1">EVERITHING IS READY. JUST BUY AND INSTALL NOW</span>
+            <span class="ready__readyTitle--readySpan2">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many options for you</span>
+        </div>
+        <div class="ready__buttons2">
+            <div class="ready__purchase2Div">
+                <button class="ready__purchase2Div--purchase2">Purchase Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="breakingNews" id="breakingNews">
+        <div class="breakingNews__title">
+            <span class="breakingNews__title--sp">Breaking News</span>
+        </div>
+        <div class="breakingNews__sticks">
+            <div class="breakingNews__stickR"></div>
+            <div class="breakingNews__stickL"></div>
+        </div>
+        <div class="breakingNews__firstBlock">
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-1.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-2.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-3.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-4.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+        </div>
+        <div class="breakingNews__secondBlock">
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-5.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-6.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-7.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+            <div class="breakingNews__block">
+                <div class="breakingNews__photo">
+                    <img class="breakingNews__photo--img" src="dist/img/news-8.jpg">
+                </div>
+                <div class="breakingNews__description">
+                    <span class="breakingNews__description--spa1">Amazing Image Post</span>
+                    <span class="breakingNews__description--spa2">By admin  | 2 comment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+        <div class="feedback__wrapper">
+            <div class="feedback__container">
+                <h2 class="feedback__title">What People Say About theHam</h2>
+                <div class="services__sticks">
+                    <div class="services__stickR"></div>
+                    <div class="services__stickL"></div>
+                </div>
+
+                <img src="dist/img/icon-5.png" alt="" class="feedback__quotes-icon">
+
+
+                <div class="feedback__element">
+                    <p class="feedback__client-quote">Aliquam. Aliquet. Nostra sollicitudin, nascetur tempor dis, ligula
+                        micurae; neque. Accumsan. Class imperdiet gravida. Litora maecenas fermentum commodo rhoncus.
+                        Eleifend. Luctus faucibus eros ligula sociis faucibus suscipit morbi. Adipiscing ipsum odio mus,
+                        magna proin feugiat ligula molestie.</p>
+
+                    <h6 class="feedback__client feedback__client--name">KURO HAYASHI</h6>
+                    <h6 class="feedback__client feedback__client--position">UI Janitor</h6>
+                    <div class="feedback__photo-wrapper">
+                        <img src="dist/img/client-1.jpg" alt="" class="feedback__client-photo">
+                    </div>
+                </div>
+
+                <div class="feedback__element">
+                    <p class="feedback__client-quote">Aliquam. Aliquet. Nostra sollicitudin, nascetur tempor dis, ligula
+                        micurae; neque. Accumsan. Class imperdiet gravida. Litora maecenas fermentum commodo rhoncus.
+                        Eleifend. Luctus faucibus eros ligula sociis faucibus suscipit morbi. Adipiscing ipsum odio mus,
+                        magna proin feugiat ligula molestie.</p>
+
+                    <h6 class="feedback__client feedback__client--name">HIROKI TANAKA</h6>
+                    <h6 class="feedback__client feedback__client--position">UX Designer</h6>
+                    <div class="feedback__photo-wrapper">
+                        <img src="dist/img/client-2.jpg" alt="" class="feedback__client-photo">
+                    </div>
+                </div>
+
+                <div class="feedback__element">
+                    <p class="feedback__client-quote">Aliquam. Aliquet. Nostra sollicitudin, nascetur tempor dis, ligula
+                        micurae; neque. Accumsan. Class imperdiet gravida. Litora maecenas fermentum commodo rhoncus.
+                        Eleifend. Luctus faucibus eros ligula sociis faucibus suscipit morbi. Adipiscing ipsum odio mus,
+                        magna proin feugiat ligula molestie.</p>
+
+                    <h6 class="feedback__client feedback__client--name">TAKESHI MIYAMOTO</h6>
+                    <h6 class="feedback__client feedback__client--position">Founder, PICN</h6>
+                    <div class="feedback__photo-wrapper">
+                        <img src="dist/img/client-3.jpg" alt="" class="feedback__client-photo">
+                    </div>
+                </div>
+
+                <div class="feedback__element">
+                    <p class="feedback__client-quote">Aliquam. Aliquet. Nostra sollicitudin, nascetur tempor dis, ligula
+                        micurae; neque. Accumsan. Class imperdiet gravida. Litora maecenas fermentum commodo rhoncus.
+                        Eleifend. Luctus faucibus eros ligula sociis faucibus suscipit morbi. Adipiscing ipsum odio mus,
+                        magna proin feugiat ligula molestie.</p>
+
+                    <h6 class="feedback__client feedback__client--name">YUA YAMAZAKI</h6>
+                    <h6 class="feedback__client feedback__client--position">Founder, Bear Software</h6>
+                    <div class="feedback__photo-wrapper">
+                        <img src="dist/img/client-4.jpg" alt="" class="feedback__client-photo">
+                    </div>
+                </div>
+                <div class="feedback__carousel">
+                    <button class="feedback__button">
+                        <i class="fa fa-angle-left"></i>
+                    </button>
+                    <div class="feedback__slider">
+                        <img src="dist/img/client-1.jpg" alt="" class="feedback__slider-image">
+                    </div>
+                    <div class="feedback__slider">
+                        <img src="dist/img/client-2.jpg" alt="" class="feedback__slider-image">
+                    </div>
+                    <div class="feedback__slider">
+                        <img src="dist/img/client-3.jpg" alt="" class="feedback__slider-image">
+                    </div>
+                    <div class="feedback__slider">
+                        <img src="dist/img/client-4.jpg" alt="" class="feedback__slider-image">
+                    </div>
+                    <button class="feedback__button">
+                        <i class="fa fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lastFooter" id="lastFooter">
+        <div class="lastFooter__div">
+            <span>© Copyright 2015<span style="color: #18cfab">theHam</span> | All Rights Reserved</span>
+        </div>
+    </section>
+
+    <section class="masonry">
+
+        <div id="grid" class="grid">
+
+            <div class="title"><span class="title-span">MASONRY GALLERY</span></div>
+
+            <div class="grid-item">
+                <img src="/dist/img/news-8.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-7.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-6.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-5.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-4.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-8.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-7.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-6.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-5.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-4.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="/dist/img/news-1.jpg">
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+
+<script src="/dist/js/concatenated.js"></script>
+

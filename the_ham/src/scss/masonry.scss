@@ -1,0 +1,42 @@
+@import "vars", "mixin";
+
+.masonry {
+  background: url("/dist/img/bg3.jpg") fixed no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+.grid{
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title{
+
+
+  height: 200px;
+  width: 800px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.title-span{
+  color: white;
+  font-size: 40px;
+}
