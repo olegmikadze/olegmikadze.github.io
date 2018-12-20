@@ -1,9 +1,9 @@
-@import "mixin", "vars";
+@import "./mixin", "./vars";
 
 
 .ready{
   background-size: cover;
-  background-image: url("/dist/img/bg2.jpg");
+  background-image: url("./dist/img/bg2.jpg");
   height: 474px;
   @include width100;
 

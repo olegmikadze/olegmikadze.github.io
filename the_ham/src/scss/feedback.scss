@@ -1,7 +1,7 @@
-@import "mixin", "vars";
+@import "./mixin", "./vars";
 
 .feedback {
-  background: url("/dist/img/bg3.jpg") no-repeat center;
+  background: url("./dist/img/bg3.jpg") no-repeat center;
   background-size: cover;
   height: 959px;
 
