@@ -5,5 +5,11 @@ jQuery(document).ready(function () {
     particlesJS.load('courses', 'particles.json', function() {
         console.log('particles.js loaded - callback');
     });
+    particlesJS.load('education', 'particles.json', function() {
+        console.log('particles.js loaded - callback');
+    });
+    particlesJS.load('projects', 'particles.json', function() {
+        console.log('particles.js loaded - callback');
+    });
 });
 

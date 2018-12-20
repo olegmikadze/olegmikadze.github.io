@@ -148,8 +148,8 @@ html, body {
 .sectionEducation {
   width: 100%;
   height: 700px;
-  background: url("../img/writing-1149962_1920.jpg") fixed no-repeat center;
-  background-size: cover;
+  background-color: #303030;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,6 +168,7 @@ html, body {
 .sectionEducation__educationContent {
   width: 100%;
   height: 100%;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,31 +348,13 @@ html, body {
 .sectionProjects {
   width: 100%;
   height: 800px;
-  background: url("../img/construction-2682641_1920.jpg") fixed no-repeat center;
-  background-size: cover;
+  background-color: #303030;
+  position: relative;
 }
 
-.sectionProjects__wrapper {
+.sectionProjects__projectsContent {
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.sectionProjects__wrapper__projectsContent {
-  width: 80%;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,10 +367,9 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
 }
 
-.sectionProjects__wrapper__projectsContent h1 {
+.sectionProjects__projectsContent h1 {
   color: white;
   font-size: 40px;
   font-weight: 800;
@@ -397,7 +379,7 @@ html, body {
   text-align: center;
 }
 
-.sectionProjects__wrapper__projectsContent__gallery {
+.sectionProjects__projectsContent__gallery {
   margin-top: 120px;
   width: 90%;
   height: 800px;
@@ -416,18 +398,18 @@ html, body {
   padding: 10px;
 }
 
-.sectionProjects__wrapper__projectsContent__gallery__galleryItem {
+.sectionProjects__projectsContent__gallery__galleryItem {
   width: 200px;
   height: 200px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.sectionProjects__wrapper__projectsContent__gallery__galleryItem a img {
+.sectionProjects__projectsContent__gallery__galleryItem a img {
   width: 100%;
 }
 
-.sectionProjects__wrapper__projectsContent__gallery__fl {
+.sectionProjects__projectsContent__gallery__fl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
