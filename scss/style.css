@@ -375,14 +375,14 @@ html, body {
   font-size: 40px;
   font-weight: 800;
   position: absolute;
-  top: 0px;
+  top: -50px;
   width: 300px;
   text-align: center;
 }
 
 .sectionProjects__projectsContent__gallery {
   width: 80%;
-  height: 70%;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,7 +425,7 @@ html, body {
   .sectionProjects {
     height: 1500px;
   }
-  .sectionProjects__wrapper__projectsContent__gallery {
+  .sectionProjects__projectsContent__gallery {
     margin-top: 120px;
     width: 450px;
     height: 1300px;
@@ -444,7 +444,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
   .portHeader__div__list {
     display: none;
   }
@@ -464,13 +464,13 @@ html, body {
     width: 90%;
   }
   .sectionProjects {
-    height: 2200px;
+    height: 2600px;
   }
-  .sectionProjects__wrapper__projectsContent {
+  .sectionProjects__projectsContent {
     height: 100%;
   }
-  .sectionProjects__wrapper__projectsContent__gallery {
-    width: 95%;
+  .sectionProjects__projectsContent__gallery {
+    width: 90%;
     height: 100%;
   }
 }
