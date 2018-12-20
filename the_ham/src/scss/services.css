@@ -1,0 +1,139 @@
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 82px;
+  margin-bottom: 25px;
+  /* Style the tab */
+  /* Style the buttons inside the tab */
+  /* Change background color of buttons on hover */
+  /* Create an active/current tablink class */
+  /* Style the tab content */
+}
+
+.services__title span {
+  color: #4e4e4e;
+  font-size: 36px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 40px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+
+.services__sticks {
+  width: 100px;
+  height: 10px;
+  margin: 10px auto;
+}
+
+.services__stickL {
+  margin: 7px;
+  width: 100%;
+  height: 3px;
+  background-color: #18cfab;
+}
+
+.services__stickR {
+  width: 100%;
+  height: 3px;
+  background-color: #18cfab;
+}
+
+.services__tab {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 60px;
+  width: 1154px;
+  height: 73px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.services__tablinks {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 192px;
+  height: 73px;
+  color: grey;
+  font-size: 15.98px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 40px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  -webkit-transform: scaleY(1.0009);
+          transform: scaleY(1.0009);
+  /* width and height properties ommitted due to transform */
+}
+
+.services__tablinks:hover {
+  background-color: #18cfab;
+}
+
+.services #WebDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services__tablinks.active {
+  background-color: #18cfab;
+  color: #ffffff;
+}
+
+.services__tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 1154px;
+  height: 200px;
+  margin: 40px auto 100px;
+}
+
+.services__child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services__p {
+  display: inline-block;
+  color: #777777;
+  font-size: 13.64px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 25px;
+  /* Approximation due to font substitution */
+  text-align: justify;
+  -webkit-transform: scaleY(1.0009);
+          transform: scaleY(1.0009);
+}
+
+.services__imgDiv--img {
+  display: block;
+}
+/*# sourceMappingURL=services.css.map */

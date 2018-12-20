@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,WAAW,CAAA;EACT,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAG,OAAO;EAC1B,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,KAAK;ECJb,KAAK,EAAE,IAAI;CDaZ;;AANE,AAAD,gBAAM,CAAA;EACJ,MAAM,EAAE,MAAM;EACd,KAAK,EAAG,OAAO;EACf,SAAS,EAAE,IAAI;EAAC,4CAA4C;CAE7D",
+    "sources": [
+        "lastFooter.scss",
+        "_mixin.scss",
+        "_vars.scss",
+        "_vars.scss"
+    ],
+    "names": [],
+    "file": "lastFooter.css"
+}

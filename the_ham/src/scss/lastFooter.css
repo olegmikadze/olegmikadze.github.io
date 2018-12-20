@@ -1,0 +1,20 @@
+.lastFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #22353f;
+  width: 1920px;
+  height: 107px;
+  width: 100%;
+}
+
+.lastFooter__div {
+  margin: 0 auto;
+  color: #aeaeae;
+  font-size: 14px;
+  /* Approximation due to font substitution */
+}
+/*# sourceMappingURL=lastFooter.css.map */

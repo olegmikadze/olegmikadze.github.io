@@ -1,0 +1,66 @@
+.ready {
+  background-size: cover;
+  background-image: url("./dist/img/bg2.jpg");
+  height: 474px;
+  width: 100%;
+}
+
+.ready__readyTitle {
+  padding-top: 150px;
+}
+
+.ready__readyTitle--readySpan1 {
+  display: block;
+  text-align: center;
+  color: #18cfab;
+  font-size: 40px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 40px;
+  /* Approximation due to font substitution */
+}
+
+.ready__readyTitle--readySpan2 {
+  display: block;
+  color: #d8d8d8;
+  font-size: 16px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 40px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  /* Approximation due to font substitution */
+}
+
+.ready__buttons2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.ready__purchase2Div {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 166px;
+  height: 61px;
+  margin: 0 10px;
+}
+
+.ready__purchase2Div--purchase2 {
+  outline: none;
+  background-color: #18cfab;
+  border-radius: 6px;
+  width: 166px;
+  height: 61px;
+  color: #ffffff;
+  font-size: 13px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 31px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  -webkit-transform: scaleX(1.001);
+          transform: scaleX(1.001);
+  /* width and height properties ommitted due to transform */
+}
+/*# sourceMappingURL=ready.css.map */

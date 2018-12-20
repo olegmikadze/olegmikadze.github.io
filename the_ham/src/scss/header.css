@@ -1,0 +1,178 @@
+.header {
+  background-size: cover;
+  background-image: url("./dist/img/bg1.jpg");
+  height: 892px;
+  width: 100%;
+}
+
+.header__headerRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  width: 100%;
+  background-color: rgba(73, 71, 63, 0.6);
+}
+
+.header__logoDiv {
+  text-align: left;
+  display: block;
+}
+
+.header__img {
+  margin-left: 205px;
+}
+
+.header__linksDiv {
+  display: block;
+}
+
+.header__aHome {
+  font-weight: 900;
+  font-size: 13px;
+  color: #b8b8b8;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.header__WPThemeParent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__WPThemeChild {
+  margin-top: 100px;
+}
+
+.header__WPThemeChild--sp1 {
+  display: block;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0;
+  font-size: 35px;
+  /* Approximation due to font substitution */
+  line-height: 9.53px;
+  /* Approximation due to font substitution */
+}
+
+.header__WPThemeChild--sp1--sp1\.2 {
+  color: #18cfab;
+  font-size: 35px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 9.53px;
+  /* Approximation due to font substitution */
+  text-align: center;
+}
+
+.header__WPThemeChild--sp2 {
+  display: block;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 79px;
+  /* Approximation due to font substitution */
+  line-height: 74px;
+  /* Approximation due to font substitution */
+  -webkit-transform: scaleX(1.0005);
+          transform: scaleX(1.0005);
+  /* width and height properties ommitted due to transform */
+}
+
+.header__WPThemeChild--sp3 {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-size: 34px;
+  /* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 74px;
+  /* Approximation due to font substitution */
+  -webkit-transform: scaleX(1.0005);
+          transform: scaleX(1.0005);
+  /* width and height properties ommitted due to transform */
+}
+
+.header__btnRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__buttons {
+  margin-top: 40px;
+}
+
+.header__exploreDiv {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 166px;
+  height: 61px;
+  margin: 0 10px;
+}
+
+.header__exploreDiv--explore {
+  outline: none;
+  background-color: #18cfab;
+  border-radius: 6px;
+  width: 166px;
+  height: 61px;
+  color: #ffffff;
+  font-size: 13px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 31px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  -webkit-transform: scaleX(1.001);
+          transform: scaleX(1.001);
+  /* width and height properties ommitted due to transform */
+}
+
+.header__purchaseDiv {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 166px;
+  height: 61px;
+  margin: 0 10px;
+}
+
+.header__purchaseDiv--purchase {
+  outline: none;
+  background-color: #00cbf6;
+  border-radius: 6px;
+  width: 166px;
+  height: 61px;
+  color: #ffffff;
+  font-size: 13px;
+  /* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 31px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  -webkit-transform: scaleX(1.001);
+          transform: scaleX(1.001);
+  /* width and height properties ommitted due to transform */
+}
+/*# sourceMappingURL=header.css.map */
