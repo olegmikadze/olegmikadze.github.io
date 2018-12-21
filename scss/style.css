@@ -411,12 +411,32 @@ html, body {
 .sectionProjects__projectsContent__gallery__galleryItem {
   width: 200px;
   height: 200px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .sectionProjects__projectsContent__gallery__galleryItem a img {
   width: 100%;
+}
+
+.sectionProjects__projectsContent__gallery__galleryItem:hover a img {
+  -webkit-animation: moveSlideshow 5s linear;
+          animation: moveSlideshow 5s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateY(calc(-100% + 200px));
+            transform: translateY(calc(-100% + 200px));
+  }
+}
+
+@keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateY(calc(-100% + 200px));
+            transform: translateY(calc(-100% + 200px));
+  }
 }
 
 @media screen and (max-width: 821px) {

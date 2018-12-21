@@ -281,19 +281,25 @@ html, body{
             &__galleryItem{
                 width: 200px;
                 height: 200px;
-                overflow-y: auto;
-                overflow-x: hidden;
+                overflow: hidden;
                 
                 a img{
                     width: 100%;
                 }
             }
-            
-            
-           
+
+            &__galleryItem:hover a img{
+                animation: moveSlideshow 5s linear;
+                animation-fill-mode: forwards;
+            }
+                        
+            @keyframes moveSlideshow {
+                100% {
+                    transform: translateY(calc(-100% + 200px));
+                }
+            }       
         }
     }
- 
 }
 
 
