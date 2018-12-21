@@ -1,7 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #525659;
-
 }
 
 .upperLinks{
@@ -22,6 +21,7 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     color: #CDCCCE;
 }
+
 .photo_block, .description_block{
     display: inline-block;
 }
