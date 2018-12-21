@@ -207,7 +207,7 @@ html, body {
 }
 
 .sectionEducation__educationContent__educationContentSpan {
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   font-weight: 800;
   text-align: center;
@@ -234,13 +234,13 @@ html, body {
 }
 
 .sectionEducation__educationContent__div__a__educationContentSpan2 {
-  font-size: 40px;
+  font-size: 20px;
   padding: 10px;
   color: white;
 }
 
 .sectionEducation__educationContent__div__educationContentSpan3 {
-  font-size: 40px;
+  font-size: 20px;
   padding: 10px;
   color: white;
   text-align: center;
