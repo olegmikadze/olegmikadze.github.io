@@ -24,7 +24,8 @@ html, body {
 }
 
 .portHeader__div {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,11 +44,11 @@ html, body {
 .portHeader__div__span {
   color: white;
   font-size: 30px;
-  padding-left: 60px;
+  padding-left: 30px;
 }
 
 .portHeader__div__list {
-  width: 40%;
+  width: 50%;
   padding-right: 30px;
   list-style: none;
   display: -webkit-box;
@@ -500,7 +501,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 800px) {
   .portHeader__div__list {
     display: none;
   }
