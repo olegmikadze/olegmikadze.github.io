@@ -466,6 +466,9 @@ html, body {
   .sectionCourses {
     height: 1050px;
   }
+  .sectionCourses__coursesContent {
+    height: 90%;
+  }
   .sectionCourses__coursesContent__coursesSpan {
     padding: 20px;
   }
