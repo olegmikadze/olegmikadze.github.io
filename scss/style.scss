@@ -39,6 +39,7 @@ html, body{
                 text-decoration: none;
                 color: white;
             }
+           
         }
 
         .show {
@@ -54,8 +55,10 @@ html, body{
             flex-direction: column;
             justify-content: space-around;
             align-items: flex-start;
+            background-color: #303030;
+            box-shadow: 2px 2px 2px 2px black;
         }
-          
+
         &__sandwich{
             display: none;
             width: 30px;
@@ -188,7 +191,7 @@ html, body{
     &__coursesContent{
         width: 100%;
         max-width: 1200px;
-        height: 85%;
+        height: 60%;
         position: absolute;
         margin-left: auto;
         margin-right: auto;

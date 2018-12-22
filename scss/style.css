@@ -89,6 +89,9 @@ html, body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  background-color: #303030;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
 }
 
 .portHeader__div__sandwich {
@@ -281,7 +284,7 @@ html, body {
 .sectionCourses__coursesContent {
   width: 100%;
   max-width: 1200px;
-  height: 85%;
+  height: 60%;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
