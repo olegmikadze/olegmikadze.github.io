@@ -11,6 +11,9 @@ jQuery(document).ready(function () {
     particlesJS.load('projects', 'particles.json', function() {
         console.log('particles.js loaded - callback');
     });
+    particlesJS.load('emailSection', 'particles.json', function() {
+        console.log('particles.js loaded - callback');
+    });
 });
 
 function myFunction() {
@@ -30,3 +33,6 @@ function myFunction() {
       }
     }
   }
+
+
+

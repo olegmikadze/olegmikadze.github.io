@@ -321,6 +321,41 @@ html, body{
     }
 }
 
+.emailSection{
+   background-color: #303030;
+   position: relative;
+
+   &__emailContent{
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 500px;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+       
+
+        span{
+            height: 100px;
+            font-size: 40px;
+            color: white;
+            font-weight: 800;
+        }
+
+        form{
+            height: 500px;
+            color:white;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
 
 @media screen and (max-width: 821px) {
     .sectionCourses{
