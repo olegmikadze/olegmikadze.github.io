@@ -477,7 +477,8 @@ html, body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 90%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,14 +494,14 @@ html, body {
 }
 
 .emailSection__emailContent span {
-  height: 100px;
+  height: 20%;
   font-size: 40px;
   color: white;
   font-weight: 800;
 }
 
 .emailSection__emailContent form {
-  height: 500px;
+  height: 80%;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,6 +552,9 @@ html, body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     padding: 10px;
+  }
+  .emailSection {
+    height: 700px;
   }
 }
 
