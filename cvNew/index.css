@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.cvWrapper{
+    width: 800px;
+    margin: 20px auto;
+}
+
+.cvHeader{
+    color: white;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(17, 85, 175);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvInfo{
+    width: 75%;
+    padding-top: 28px;
+    padding-left: 25px; 
+    height: 100%;
+    line-height: 30px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.jobName{
+    font-size: 20px;
+
+}
+
+.cvTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+
+}
+
+.cvContact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactInfo, .links{
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.links a{
+    color: white;
+    text-decoration:none;
+}
+
+.links a:visited{
+    color: white;
+}
+
+.cvImg{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cvImg img{
+    width: 150px;
+    border-radius:3px; 
+}
+
+
+.cvBody{
+    width: 100% - 1px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 25px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.languages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blockContent{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.year {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.event{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.tg td {
+    padding: 10px 5px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg th {
+    font-size: 17px;
+    font-weight: normal;
+    padding: 10px 5px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-0pky {
+    text-align: left;
+    vertical-align: top;
+    width: 100px;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top;
+    width: 160px;
+}
