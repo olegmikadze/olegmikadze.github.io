@@ -97,8 +97,10 @@ body{
 }
 
 .skills {
+    width: 90%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .languages{
