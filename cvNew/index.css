@@ -6,15 +6,14 @@ body{
 }
 
 .cvWrapper{
-    width: 800px;
+    width: 850px;
     margin: 20px auto;
 }
 
 .cvHeader{
-    color: white;
     width: 100%;
-    height: 250px;
-    background-color: rgb(17, 85, 175);
+    /* height: 250px; */
+    /* padding: 20px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,8 +22,8 @@ body{
 
 .cvInfo{
     width: 75%;
-    padding-top: 28px;
-    padding-left: 25px; 
+    /* padding-top: 28px;
+    padding-left: 25px;  */
     height: 100%;
     line-height: 30px;
 }
@@ -65,12 +64,10 @@ body{
 }
 
 .links a{
-    color: white;
     text-decoration:none;
 }
 
 .links a:visited{
-    color: white;
 }
 
 .cvImg{
@@ -90,10 +87,7 @@ body{
 
 .cvBody{
     width: 100% - 1px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 25px;
+    
 }
 
 .skills {
